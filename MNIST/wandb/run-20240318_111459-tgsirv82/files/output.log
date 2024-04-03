@@ -1,0 +1,8 @@
+INFO flwr 2024-03-18 11:15:18,812 | app.py:163 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+INFO flwr 2024-03-18 11:15:18,824 | app.py:176 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+INFO flwr 2024-03-18 11:15:18,826 | server.py:89 | Initializing global parameters
+INFO flwr 2024-03-18 11:15:18,827 | server.py:276 | Requesting initial parameters from one random client
+INFO flwr 2024-03-18 11:17:37,172 | server.py:280 | Received initial parameters from one random client
+INFO flwr 2024-03-18 11:17:37,172 | server.py:91 | Evaluating initial parameters
+INFO flwr 2024-03-18 11:17:37,172 | server.py:104 | FL starting
+DEBUG flwr 2024-03-18 11:17:55,392 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)

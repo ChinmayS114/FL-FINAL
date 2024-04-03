@@ -1,0 +1,158 @@
+WARNING flwr 2024-03-28 09:45:03,259 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+INFO flwr 2024-03-28 09:45:03,364 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2024-03-28 09:45:03,391 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 09:45:03,411 | connection.py:55 | ChannelConnectivity.READY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 263s 314ms/step - loss: 1.3690 - accuracy: 0.4335
+DEBUG flwr 2024-03-28 09:50:31,405 | connection.py:220 | gRPC channel closed
+Traceback (most recent call last):
+  File "C:\Users\chinm\Desktop\FL-FINAL\CIFAR\client1.py", line 49, in <module>
+    fl.client.start_numpy_client(server_address="127.0.0.1:8080", client=CifarClient())
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\app.py", line 500, in start_numpy_client
+    start_client(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\app.py", line 248, in start_client
+    _start_client_internal(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\app.py", line 382, in _start_client_internal
+    out_message = app(message=message, context=context)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\flower.py", line 76, in __call__
+    return self._call(message, context)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\flower.py", line 66, in ffn
+    out_message = handle_legacy_message_from_tasktype(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\message_handler\message_handler.py", line 142, in handle_legacy_message_from_tasktype
+    evaluate_res = maybe_call_evaluate(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\client.py", line 254, in maybe_call_evaluate
+    return client.evaluate(evaluate_ins)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\numpy_client.py", line 262, in _evaluate
+    results = self.numpy_client.evaluate(parameters, ins.config)  # type: ignore
+  File "C:\Users\chinm\Desktop\FL-FINAL\CIFAR\client1.py", line 42, in evaluate
+    x_test_client = x_test[np.isin(y_test, classes_to_keep)]
+IndexError: boolean index did not match indexed array along dimension 1; dimension is 32 but corresponding boolean dimension is 1

@@ -1,0 +1,504 @@
+2024-03-22 12:09:28,826 INFO    StreamThr :29376 [internal.py:wandb_internal():86] W&B internal server running at pid: 29376, started at: 2024-03-22 12:09:28.825367
+2024-03-22 12:09:28,827 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status
+2024-03-22 12:09:28,838 INFO    WriterThread:29376 [datastore.py:open_for_write():87] open: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\run-60reoh7m.wandb
+2024-03-22 12:09:28,839 DEBUG   SenderThread:29376 [sender.py:send():378] send: header
+2024-03-22 12:09:28,840 DEBUG   SenderThread:29376 [sender.py:send():378] send: run
+2024-03-22 12:09:29,912 INFO    SenderThread:29376 [dir_watcher.py:__init__():211] watching files in: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files
+2024-03-22 12:09:29,912 INFO    SenderThread:29376 [sender.py:_start_run_threads():1099] run started: 60reoh7m with start time 1711089568.827372
+2024-03-22 12:09:29,922 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: check_version
+2024-03-22 12:09:29,922 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: check_version
+2024-03-22 12:09:30,207 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: run_start
+2024-03-22 12:09:30,231 DEBUG   HandlerThread:29376 [system_info.py:__init__():26] System info init
+2024-03-22 12:09:30,231 DEBUG   HandlerThread:29376 [system_info.py:__init__():41] System info init done
+2024-03-22 12:09:30,232 INFO    HandlerThread:29376 [system_monitor.py:start():194] Starting system monitor
+2024-03-22 12:09:30,232 INFO    SystemMonitor:29376 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-22 12:09:30,232 INFO    HandlerThread:29376 [system_monitor.py:probe():214] Collecting system info
+2024-03-22 12:09:30,237 INFO    SystemMonitor:29376 [interfaces.py:start():190] Started cpu monitoring
+2024-03-22 12:09:30,238 INFO    SystemMonitor:29376 [interfaces.py:start():190] Started disk monitoring
+2024-03-22 12:09:30,239 INFO    SystemMonitor:29376 [interfaces.py:start():190] Started gpu monitoring
+2024-03-22 12:09:30,240 INFO    SystemMonitor:29376 [interfaces.py:start():190] Started memory monitoring
+2024-03-22 12:09:30,250 INFO    SystemMonitor:29376 [interfaces.py:start():190] Started network monitoring
+2024-03-22 12:09:30,263 DEBUG   HandlerThread:29376 [system_info.py:probe():150] Probing system
+2024-03-22 12:09:30,264 DEBUG   HandlerThread:29376 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-22 12:09:30,264 DEBUG   HandlerThread:29376 [system_info.py:probe():198] Probing system done
+2024-03-22 12:09:30,265 DEBUG   HandlerThread:29376 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.13', 'heartbeatAt': '2024-03-22T06:39:30.263428', 'startedAt': '2024-03-22T06:39:28.812763', 'docker': None, 'cuda': None, 'args': ('8000',), 'state': 'running', 'program': 'C:\\Users\\chinm\\Desktop\\FL-FINAL\\MNIST-5C\\client.py', 'codePathLocal': 'client.py', 'codePath': 'client.py', 'host': 'MSI', 'username': 'chinm', 'executable': 'C:\\Users\\chinm\\anaconda3\\New folder\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 2496.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 2496.0}], 'disk': {'/': {'total': 458.81444931030273, 'used': 433.74524688720703}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 7.8259735107421875}}
+2024-03-22 12:09:30,265 INFO    HandlerThread:29376 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-22 12:09:30,265 INFO    HandlerThread:29376 [system_monitor.py:probe():227] Publishing system info
+2024-03-22 12:09:30,265 DEBUG   HandlerThread:29376 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-03-22 12:09:30,268 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:30,913 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\conda-environment.yaml
+2024-03-22 12:09:32,284 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:34,301 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:36,318 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:38,335 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:40,357 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:42,377 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:43,474 DEBUG   HandlerThread:29376 [system_info.py:_save_conda():219] Saving conda packages done
+2024-03-22 12:09:43,492 INFO    HandlerThread:29376 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-22 12:09:43,512 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:09:43,512 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-22 12:09:43,512 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:09:43,512 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-22 12:09:43,513 DEBUG   SenderThread:29376 [sender.py:send():378] send: files
+2024-03-22 12:09:43,513 INFO    SenderThread:29376 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-22 12:09:44,036 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\conda-environment.yaml
+2024-03-22 12:09:44,037 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-metadata.json
+2024-03-22 12:09:44,109 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-22 12:09:44,110 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: python_packages
+2024-03-22 12:09:44,110 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:09:44,111 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:09:44,121 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:09:44,399 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:44,655 DEBUG   SenderThread:29376 [sender.py:send():378] send: telemetry
+2024-03-22 12:09:44,655 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:09:45,053 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\requirements.txt
+2024-03-22 12:09:45,053 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:09:45,232 INFO    wandb-upload_0:29376 [upload_job.py:push():131] Uploaded file C:\Users\chinm\AppData\Local\Temp\tmpqvmhijiewandb\0lrcbaw9-wandb-metadata.json
+2024-03-22 12:09:46,420 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:47,152 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:09:48,562 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:49,664 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:09:50,198 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:09:50,709 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:52,261 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:09:52,868 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:54,321 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:09:54,671 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:09:55,084 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:56,359 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:09:57,194 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:58,388 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:09:59,130 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:09:59,133 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:09:59,135 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:09:59,255 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:09:59,704 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:00,427 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:00,429 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\config.yaml
+2024-03-22 12:10:01,631 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:01,656 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:03,676 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:03,686 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:05,184 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:05,699 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:05,717 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:07,740 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:07,841 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:09,771 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:09,961 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:10,198 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:11,843 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:12,079 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:13,943 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:14,131 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:10:14,146 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:10:14,146 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:14,147 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:10:15,207 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:16,047 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:16,171 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:18,126 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:18,269 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:20,196 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:20,227 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:20,346 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:22,309 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:22,442 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:24,376 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:24,511 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:25,301 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:26,480 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:26,612 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:28,571 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:28,732 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:29,131 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:10:29,159 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:10:29,161 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:10:30,254 DEBUG   SystemMonitor:29376 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-22 12:10:30,268 DEBUG   SenderThread:29376 [sender.py:send():378] send: stats
+2024-03-22 12:10:30,311 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:30,721 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:30,780 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:31,763 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:33,204 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:33,818 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:35,299 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:35,331 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:35,894 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:37,409 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:37,943 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:39,543 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:40,039 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:40,382 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:41,579 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:42,121 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:43,639 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:44,136 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:10:44,169 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:10:44,170 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:10:44,256 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:45,398 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:45,734 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:46,412 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:47,648 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 12:10:47,650 DEBUG   SenderThread:29376 [sender.py:send():378] send: history
+2024-03-22 12:10:47,650 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 12:10:47,653 INFO    SenderThread:29376 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 12:10:47,762 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:48,654 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:48,655 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-summary.json
+2024-03-22 12:10:49,806 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:50,359 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 12:10:50,360 DEBUG   SenderThread:29376 [sender.py:send():378] send: history
+2024-03-22 12:10:50,360 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 12:10:50,361 INFO    SenderThread:29376 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 12:10:50,696 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:50,698 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-summary.json
+2024-03-22 12:10:51,366 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:51,875 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:52,739 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:53,918 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:53,932 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:56,022 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:56,039 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:56,423 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:10:58,341 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:10:58,475 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:10:59,155 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:10:59,188 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:10:59,193 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:11:00,277 DEBUG   SenderThread:29376 [sender.py:send():378] send: stats
+2024-03-22 12:11:00,543 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:00,558 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:01,484 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:02,595 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:02,696 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:04,699 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:05,038 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:06,498 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:06,996 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:07,121 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:09,232 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:09,240 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:11,302 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:11,326 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:11,523 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:13,372 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:13,380 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:14,171 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:11:14,204 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:11:14,206 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:11:15,446 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:15,461 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:16,594 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:17,560 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:17,566 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:19,705 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:19,709 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:21,597 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:21,838 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:21,852 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:24,129 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:24,136 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:26,213 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:26,227 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:26,610 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:28,296 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:28,302 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:29,194 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:11:29,223 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:11:29,225 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:11:30,381 DEBUG   SenderThread:29376 [sender.py:send():378] send: stats
+2024-03-22 12:11:30,388 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:30,404 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:31,392 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:31,657 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:32,481 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:33,485 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:34,593 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:35,598 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:36,772 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:36,939 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:37,798 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:38,971 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:39,851 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:41,020 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:41,748 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:41,992 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:43,109 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:44,076 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:44,201 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:11:44,259 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:11:44,261 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:11:45,186 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:46,156 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:46,788 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:47,248 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:48,255 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:49,340 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:50,351 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:51,434 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:51,836 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:52,432 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:53,066 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 12:11:53,068 DEBUG   SenderThread:29376 [sender.py:send():378] send: history
+2024-03-22 12:11:53,068 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 12:11:53,070 INFO    SenderThread:29376 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 12:11:53,476 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-summary.json
+2024-03-22 12:11:53,491 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:54,491 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:55,536 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:55,808 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 12:11:55,810 DEBUG   SenderThread:29376 [sender.py:send():378] send: history
+2024-03-22 12:11:55,810 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 12:11:55,811 INFO    SenderThread:29376 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 12:11:56,543 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:56,544 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-summary.json
+2024-03-22 12:11:56,848 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:11:57,635 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:11:58,625 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:59,236 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:11:59,263 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:11:59,268 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:11:59,724 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:11:59,733 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:00,343 DEBUG   SenderThread:29376 [sender.py:send():378] send: stats
+2024-03-22 12:12:01,806 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:01,825 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:01,878 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:03,883 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:03,902 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:05,993 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:06,002 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:06,902 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:08,390 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:08,492 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:10,443 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:10,630 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:11,961 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:12,481 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:12,725 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:14,261 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:12:14,295 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:12:14,298 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:12:14,547 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:14,821 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:16,596 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:16,892 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:17,024 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:18,665 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:18,955 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:20,701 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:21,047 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:22,063 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:22,760 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:23,153 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:24,796 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:25,192 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:27,099 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:27,105 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:27,298 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:28,111 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:29,296 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:12:29,300 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:12:29,304 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:12:29,333 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:30,356 DEBUG   SenderThread:29376 [sender.py:send():378] send: stats
+2024-03-22 12:12:30,363 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:31,436 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:32,096 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:32,452 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:33,496 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:34,489 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:35,607 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:36,611 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:37,138 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:37,721 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:38,743 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:40,382 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:41,164 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:42,237 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:42,505 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:43,258 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:44,324 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:12:44,356 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:12:44,360 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:12:44,367 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:44,596 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:46,534 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:46,656 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:47,268 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:48,622 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:48,691 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:50,775 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:50,794 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:52,295 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:52,894 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:52,909 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:55,004 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:55,010 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:57,054 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 12:12:57,055 DEBUG   SenderThread:29376 [sender.py:send():378] send: history
+2024-03-22 12:12:57,056 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 12:12:57,057 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:57,058 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-summary.json
+2024-03-22 12:12:57,058 INFO    SenderThread:29376 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 12:12:57,079 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:57,324 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:12:58,067 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-summary.json
+2024-03-22 12:12:59,119 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:12:59,134 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:12:59,286 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:12:59,303 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:12:59,303 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:12:59,757 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 12:12:59,830 DEBUG   SenderThread:29376 [sender.py:send():378] send: history
+2024-03-22 12:12:59,830 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: summary_record
+2024-03-22 12:12:59,831 INFO    SenderThread:29376 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 12:13:00,141 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-summary.json
+2024-03-22 12:13:00,357 DEBUG   SenderThread:29376 [sender.py:send():378] send: stats
+2024-03-22 12:13:01,147 ERROR   gpu       :29376 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:13:01,154 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:13:02,252 DEBUG   SenderThread:29376 [sender.py:send():378] send: exit
+2024-03-22 12:13:02,254 INFO    SenderThread:29376 [sender.py:send_exit():585] handling exit code: 1
+2024-03-22 12:13:02,254 INFO    SenderThread:29376 [sender.py:send_exit():587] handling runtime: 212
+2024-03-22 12:13:02,255 INFO    SenderThread:29376 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 12:13:02,255 INFO    SenderThread:29376 [sender.py:send_exit():593] send defer
+2024-03-22 12:13:02,256 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:02,256 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-22 12:13:02,256 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:02,256 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-22 12:13:02,256 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 1
+2024-03-22 12:13:02,256 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:02,256 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-22 12:13:02,257 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:02,257 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-22 12:13:02,257 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 2
+2024-03-22 12:13:02,257 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:02,257 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-22 12:13:02,257 INFO    HandlerThread:29376 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-22 12:13:02,258 INFO    HandlerThread:29376 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-22 12:13:02,258 INFO    HandlerThread:29376 [interfaces.py:finish():202] Joined disk monitor
+2024-03-22 12:13:02,258 DEBUG   SystemMonitor:29376 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-22 12:13:02,269 DEBUG   SystemMonitor:29376 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-22 12:13:02,310 INFO    HandlerThread:29376 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-22 12:13:02,310 INFO    HandlerThread:29376 [interfaces.py:finish():202] Joined memory monitor
+2024-03-22 12:13:02,310 INFO    HandlerThread:29376 [interfaces.py:finish():202] Joined network monitor
+2024-03-22 12:13:02,311 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:02,311 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-22 12:13:02,311 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 3
+2024-03-22 12:13:02,311 DEBUG   SenderThread:29376 [sender.py:send():378] send: stats
+2024-03-22 12:13:02,311 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:02,311 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-22 12:13:02,311 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:02,312 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-22 12:13:02,312 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 4
+2024-03-22 12:13:02,312 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:02,312 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-22 12:13:02,312 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:02,312 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-22 12:13:02,312 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 5
+2024-03-22 12:13:02,312 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:02,312 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-22 12:13:02,313 DEBUG   SenderThread:29376 [sender.py:send():378] send: summary
+2024-03-22 12:13:02,313 INFO    SenderThread:29376 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 12:13:02,314 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:02,314 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-22 12:13:02,314 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 6
+2024-03-22 12:13:02,314 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:02,314 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-22 12:13:02,314 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:02,314 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-22 12:13:02,314 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 7
+2024-03-22 12:13:02,314 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:13:02,315 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:02,315 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-22 12:13:02,315 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:02,315 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-22 12:13:03,171 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:13:03,172 INFO    Thread-16 :29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-summary.json
+2024-03-22 12:13:03,259 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 12:13:04,438 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 8
+2024-03-22 12:13:04,439 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 12:13:04,439 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:04,439 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-22 12:13:04,439 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:04,439 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-22 12:13:04,439 INFO    SenderThread:29376 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-22 12:13:04,440 INFO    SenderThread:29376 [job_builder.py:_get_source_type():439] no source found
+2024-03-22 12:13:04,440 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 9
+2024-03-22 12:13:04,440 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:04,440 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-22 12:13:04,441 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:04,441 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-22 12:13:04,441 INFO    SenderThread:29376 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-22 12:13:05,185 INFO    SenderThread:29376 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:13:05,185 INFO    SenderThread:29376 [dir_watcher.py:finish():388] scan: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files
+2024-03-22 12:13:05,185 INFO    SenderThread:29376 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\conda-environment.yaml conda-environment.yaml
+2024-03-22 12:13:05,186 INFO    SenderThread:29376 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\config.yaml config.yaml
+2024-03-22 12:13:05,188 INFO    SenderThread:29376 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log output.log
+2024-03-22 12:13:05,190 INFO    SenderThread:29376 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\requirements.txt requirements.txt
+2024-03-22 12:13:05,191 INFO    SenderThread:29376 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-metadata.json wandb-metadata.json
+2024-03-22 12:13:05,191 INFO    SenderThread:29376 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-summary.json wandb-summary.json
+2024-03-22 12:13:05,194 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 10
+2024-03-22 12:13:05,196 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:05,196 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-22 12:13:05,198 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:05,198 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-22 12:13:05,198 INFO    SenderThread:29376 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-22 12:13:05,280 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 12:13:05,283 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 12:13:05,974 INFO    wandb-upload_0:29376 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\conda-environment.yaml
+2024-03-22 12:13:06,073 INFO    wandb-upload_1:29376 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\config.yaml
+2024-03-22 12:13:06,283 INFO    wandb-upload_4:29376 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\wandb-summary.json
+2024-03-22 12:13:06,315 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 12:13:06,315 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 12:13:06,335 INFO    wandb-upload_3:29376 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\requirements.txt
+2024-03-22 12:13:06,337 INFO    wandb-upload_2:29376 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\files\output.log
+2024-03-22 12:13:06,550 INFO    Thread-15 :29376 [sender.py:transition_state():613] send defer: 11
+2024-03-22 12:13:06,551 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:06,551 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-22 12:13:06,551 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:06,551 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-22 12:13:06,551 INFO    SenderThread:29376 [file_pusher.py:join():178] waiting for file pusher
+2024-03-22 12:13:06,552 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 12
+2024-03-22 12:13:06,553 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:06,553 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-22 12:13:06,553 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:06,553 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-22 12:13:06,553 INFO    SenderThread:29376 [file_stream.py:finish():595] file stream finish called
+2024-03-22 12:13:07,327 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 12:13:07,873 INFO    SenderThread:29376 [file_stream.py:finish():599] file stream finish is done
+2024-03-22 12:13:07,873 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 13
+2024-03-22 12:13:07,874 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 12:13:07,875 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:07,875 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-22 12:13:07,876 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:07,876 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-22 12:13:07,876 INFO    SenderThread:29376 [sender.py:transition_state():613] send defer: 14
+2024-03-22 12:13:07,877 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 12:13:07,877 INFO    HandlerThread:29376 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-22 12:13:07,879 DEBUG   SenderThread:29376 [sender.py:send():378] send: final
+2024-03-22 12:13:07,879 DEBUG   SenderThread:29376 [sender.py:send():378] send: footer
+2024-03-22 12:13:07,879 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: defer
+2024-03-22 12:13:07,880 INFO    SenderThread:29376 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-22 12:13:07,880 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 12:13:07,881 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 12:13:07,883 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 12:13:07,883 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: server_info
+2024-03-22 12:13:07,883 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-22 12:13:07,883 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-22 12:13:07,884 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 12:13:07,884 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:13:07,884 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: server_info
+2024-03-22 12:13:07,884 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: job_info
+2024-03-22 12:13:08,311 DEBUG   SenderThread:29376 [sender.py:send_request():405] send_request: job_info
+2024-03-22 12:13:08,313 INFO    MainThread:29376 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-22 12:13:08,313 INFO    MainThread:29376 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-22 12:13:08,319 INFO    MainThread:29376 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-03-22 12:13:08,321 DEBUG   HandlerThread:29376 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-22 12:13:08,321 INFO    HandlerThread:29376 [handler.py:finish():869] shutting down handler
+2024-03-22 12:13:08,894 INFO    WriterThread:29376 [datastore.py:close():296] close: C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\wandb\run-20240322_120928-60reoh7m\run-60reoh7m.wandb
+2024-03-22 12:13:09,325 INFO    SenderThread:29376 [sender.py:finish():1521] shutting down sender
+2024-03-22 12:13:09,326 INFO    SenderThread:29376 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-22 12:13:09,326 INFO    SenderThread:29376 [file_pusher.py:join():178] waiting for file pusher

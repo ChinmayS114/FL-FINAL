@@ -1,0 +1,99 @@
+WARNING flwr 2024-03-22 11:49:16,041 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+INFO flwr 2024-03-22 11:49:16,056 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2024-03-22 11:49:16,062 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-22 11:49:16,065 | connection.py:55 | ChannelConnectivity.CONNECTING
+DEBUG flwr 2024-03-22 11:49:16,066 | connection.py:55 | ChannelConnectivity.READY
+
+
+
+
+
+
+
+
+
+
+
+
+
+957/957 [==============================] - 27s 27ms/step - loss: 0.0756 - accuracy: 0.9757
+161/161 [==============================] - 1s 5ms/step - loss: 0.3328 - accuracy: 0.9630
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+957/957 [==============================] - 31s 33ms/step - loss: 0.0272 - accuracy: 0.9913
+
+161/161 [==============================] - 2s 11ms/step - loss: 0.3174 - accuracy: 0.9169
+
+
+
+
+
+
+
+
+
+
+
+
+
+957/957 [==============================] - 27s 28ms/step - loss: 0.0199 - accuracy: 0.9938
+161/161 [==============================] - 1s 7ms/step - loss: 0.0860 - accuracy: 0.9765
+DEBUG flwr 2024-03-22 11:51:08,382 | connection.py:220 | gRPC channel closed
+INFO flwr 2024-03-22 11:51:08,388 | app.py:398 | Disconnect and shut down
+WARNING flwr 2024-03-22 11:51:08,396 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+INFO flwr 2024-03-22 11:51:08,417 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2024-03-22 11:51:08,446 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-22 11:51:08,448 | connection.py:55 | ChannelConnectivity.CONNECTING
+DEBUG flwr 2024-03-22 11:51:10,480 | connection.py:55 | ChannelConnectivity.TRANSIENT_FAILURE
+DEBUG flwr 2024-03-22 11:51:10,694 | connection.py:220 | gRPC channel closed
+Traceback (most recent call last):
+  File "C:\Users\chinm\Desktop\FL-FINAL\MNIST\client1.py", line 74, in <module>
+    fl.client.start_numpy_client(server_address="127.0.0.1:8080", client=MnistClient2())
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\app.py", line 500, in start_numpy_client
+    start_client(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\app.py", line 248, in start_client
+    _start_client_internal(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\app.py", line 361, in _start_client_internal
+    message = receive()
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\grpc_client\connection.py", line 132, in receive
+    proto = next(server_message_iterator)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\grpc\_channel.py", line 540, in __next__
+    return self._next()
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\grpc\_channel.py", line 966, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8080: Connection refused"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-03-22T06:21:10.4809644+00:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:8080: Connection refused"}"
+>

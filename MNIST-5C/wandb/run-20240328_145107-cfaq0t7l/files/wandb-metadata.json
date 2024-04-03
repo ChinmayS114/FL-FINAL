@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2024-03-28T09:21:09.351809",
+    "startedAt": "2024-03-28T09:21:07.259645",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "8000"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\chinm\\Desktop\\FL-FINAL\\MNIST-5C\\server.py",
+    "codePathLocal": "server.py",
+    "codePath": "server.py",
+    "host": "MSI",
+    "username": "chinm",
+    "executable": "C:\\Users\\chinm\\anaconda3\\New folder\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2496.0,
+        "min": 0.0,
+        "max": 2496.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 2496.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 458.81444931030273,
+            "used": 432.32849502563477
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.8259735107421875
+    }
+}

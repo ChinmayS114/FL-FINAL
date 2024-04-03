@@ -1,0 +1,184 @@
+2024-03-22 12:41:30,447 INFO    StreamThr :23356 [internal.py:wandb_internal():86] W&B internal server running at pid: 23356, started at: 2024-03-22 12:41:30.447499
+2024-03-22 12:41:30,447 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status
+2024-03-22 12:41:30,453 INFO    WriterThread:23356 [datastore.py:open_for_write():87] open: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240322_124130-zvkmj8rs\run-zvkmj8rs.wandb
+2024-03-22 12:41:30,453 DEBUG   SenderThread:23356 [sender.py:send():378] send: header
+2024-03-22 12:41:30,453 DEBUG   SenderThread:23356 [sender.py:send():378] send: run
+2024-03-22 12:41:31,365 INFO    SenderThread:23356 [dir_watcher.py:__init__():211] watching files in: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240322_124130-zvkmj8rs\files
+2024-03-22 12:41:31,365 INFO    SenderThread:23356 [sender.py:_start_run_threads():1099] run started: zvkmj8rs with start time 1711091490.447499
+2024-03-22 12:41:31,381 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: check_version
+2024-03-22 12:41:31,381 DEBUG   SenderThread:23356 [sender.py:send_request():405] send_request: check_version
+2024-03-22 12:41:31,653 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: run_start
+2024-03-22 12:41:31,693 DEBUG   HandlerThread:23356 [system_info.py:__init__():26] System info init
+2024-03-22 12:41:31,693 DEBUG   HandlerThread:23356 [system_info.py:__init__():41] System info init done
+2024-03-22 12:41:31,693 INFO    HandlerThread:23356 [system_monitor.py:start():194] Starting system monitor
+2024-03-22 12:41:31,693 INFO    SystemMonitor:23356 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-22 12:41:31,693 INFO    HandlerThread:23356 [system_monitor.py:probe():214] Collecting system info
+2024-03-22 12:41:31,699 INFO    SystemMonitor:23356 [interfaces.py:start():190] Started cpu monitoring
+2024-03-22 12:41:31,699 INFO    SystemMonitor:23356 [interfaces.py:start():190] Started disk monitoring
+2024-03-22 12:41:31,699 INFO    SystemMonitor:23356 [interfaces.py:start():190] Started gpu monitoring
+2024-03-22 12:41:31,699 INFO    SystemMonitor:23356 [interfaces.py:start():190] Started memory monitoring
+2024-03-22 12:41:31,713 INFO    SystemMonitor:23356 [interfaces.py:start():190] Started network monitoring
+2024-03-22 12:41:31,718 DEBUG   HandlerThread:23356 [system_info.py:probe():150] Probing system
+2024-03-22 12:41:31,718 DEBUG   HandlerThread:23356 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-22 12:41:31,718 DEBUG   HandlerThread:23356 [system_info.py:probe():198] Probing system done
+2024-03-22 12:41:31,718 DEBUG   HandlerThread:23356 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.13', 'heartbeatAt': '2024-03-22T07:11:31.718308', 'startedAt': '2024-03-22T07:11:30.433463', 'docker': None, 'cuda': None, 'args': ('8000',), 'state': 'running', 'program': 'C:\\Users\\chinm\\Desktop\\FL-FINAL\\CIFAR\\server.py', 'codePathLocal': 'server.py', 'codePath': 'server.py', 'host': 'MSI', 'username': 'chinm', 'executable': 'C:\\Users\\chinm\\anaconda3\\New folder\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 2496.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 2496.0}], 'disk': {'/': {'total': 458.81444931030273, 'used': 432.2451477050781}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 7.8259735107421875}}
+2024-03-22 12:41:31,718 INFO    HandlerThread:23356 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-22 12:41:31,718 INFO    HandlerThread:23356 [system_monitor.py:probe():227] Publishing system info
+2024-03-22 12:41:31,718 DEBUG   HandlerThread:23356 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-03-22 12:41:31,725 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:32,369 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240322_124130-zvkmj8rs\files\conda-environment.yaml
+2024-03-22 12:41:33,743 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:35,763 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:37,773 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:39,783 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:41,793 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:43,803 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:45,273 DEBUG   HandlerThread:23356 [system_info.py:_save_conda():219] Saving conda packages done
+2024-03-22 12:41:45,283 INFO    HandlerThread:23356 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-22 12:41:45,298 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:41:45,298 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-22 12:41:45,298 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:41:45,298 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-22 12:41:45,298 DEBUG   SenderThread:23356 [sender.py:send():378] send: files
+2024-03-22 12:41:45,298 INFO    SenderThread:23356 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-22 12:41:45,459 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240322_124130-zvkmj8rs\files\conda-environment.yaml
+2024-03-22 12:41:45,459 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240322_124130-zvkmj8rs\files\wandb-metadata.json
+2024-03-22 12:41:45,833 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:45,963 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-22 12:41:45,963 DEBUG   SenderThread:23356 [sender.py:send_request():405] send_request: python_packages
+2024-03-22 12:41:45,963 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:41:45,963 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:41:45,973 DEBUG   SenderThread:23356 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:41:45,973 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:41:46,463 DEBUG   SenderThread:23356 [sender.py:send():378] send: telemetry
+2024-03-22 12:41:46,473 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240322_124130-zvkmj8rs\files\output.log
+2024-03-22 12:41:46,473 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240322_124130-zvkmj8rs\files\requirements.txt
+2024-03-22 12:41:46,733 INFO    wandb-upload_0:23356 [upload_job.py:push():131] Uploaded file C:\Users\chinm\AppData\Local\Temp\tmpxclja3tjwandb\al8crixw-wandb-metadata.json
+2024-03-22 12:41:47,863 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:48,483 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240322_124130-zvkmj8rs\files\output.log
+2024-03-22 12:41:49,883 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:51,519 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:41:51,923 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:53,950 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:55,985 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:41:56,574 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:41:58,032 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:00,062 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:00,976 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:42:00,976 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:42:00,977 DEBUG   SenderThread:23356 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:42:02,179 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:02,376 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:42:03,630 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240322_124130-zvkmj8rs\files\config.yaml
+2024-03-22 12:42:04,195 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:06,232 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:07,752 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:42:08,263 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:10,277 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:12,316 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:12,789 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:42:14,337 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:15,975 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:42:15,976 DEBUG   SenderThread:23356 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:42:15,982 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:42:16,348 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:18,370 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:18,390 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:42:20,405 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:22,426 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:23,448 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:42:24,433 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:26,468 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:28,473 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:42:28,481 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:30,496 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:30,983 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:42:30,983 DEBUG   SenderThread:23356 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:42:30,989 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:42:31,722 DEBUG   SystemMonitor:23356 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-22 12:42:31,722 DEBUG   SenderThread:23356 [sender.py:send():378] send: stats
+2024-03-22 12:42:32,548 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:33,743 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:42:34,574 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:36,592 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:38,602 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:38,790 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:42:40,623 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:40,906 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240322_124130-zvkmj8rs\files\output.log
+2024-03-22 12:42:42,670 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:44,374 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:42:44,681 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:45,994 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:42:46,010 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:42:46,010 DEBUG   SenderThread:23356 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:42:46,709 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:48,722 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:49,593 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:42:50,738 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:52,756 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:52,990 INFO    Thread-16 :23356 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240322_124130-zvkmj8rs\files\output.log
+2024-03-22 12:42:54,784 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:54,806 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:42:56,795 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:58,828 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:42:59,838 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:00,858 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:01,003 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:43:01,023 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:43:01,024 DEBUG   SenderThread:23356 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:43:01,726 DEBUG   SenderThread:23356 [sender.py:send():378] send: stats
+2024-03-22 12:43:02,968 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:05,001 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:05,752 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:07,058 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:09,089 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:10,794 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:11,138 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:13,198 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:15,238 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:15,884 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:16,014 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:43:16,027 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:43:16,029 DEBUG   SenderThread:23356 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:43:17,284 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:19,334 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:21,382 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:21,503 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:23,446 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:25,486 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:26,533 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:27,555 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:29,583 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:31,020 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:43:31,046 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:43:31,052 DEBUG   SenderThread:23356 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:43:31,638 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:31,751 DEBUG   SenderThread:23356 [sender.py:send():378] send: stats
+2024-03-22 12:43:31,756 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:33,831 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:35,900 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:36,805 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:37,957 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:40,010 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:41,852 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:42,131 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:44,188 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:46,014 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 12:43:46,033 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 12:43:46,033 DEBUG   SenderThread:23356 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 12:43:46,275 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:47,439 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:48,321 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:50,354 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:52,391 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:52,460 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:54,471 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:56,524 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:43:57,488 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 12:43:58,597 ERROR   gpu       :23356 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-22 12:44:00,472 INFO    memory    :23356 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2024-03-22 12:44:00,478 DEBUG   SystemMonitor:23356 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-22 12:44:00,480 DEBUG   SystemMonitor:23356 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-22 12:44:00,483 DEBUG   SenderThread:23356 [sender.py:send():378] send: stats
+2024-03-22 12:44:02,057 INFO    MainThread:23356 [internal.py:handle_exit():76] Internal process exited
+2024-03-22 12:44:02,491 DEBUG   HandlerThread:23356 [handler.py:handle_request():146] handle_request: status_report

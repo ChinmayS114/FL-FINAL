@@ -1,0 +1,733 @@
+2024-03-28 14:42:54,192 INFO    StreamThr :7176 [internal.py:wandb_internal():86] W&B internal server running at pid: 7176, started at: 2024-03-28 14:42:54.186624
+2024-03-28 14:42:54,193 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status
+2024-03-28 14:42:54,217 INFO    WriterThread:7176 [datastore.py:open_for_write():87] open: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\run-g574hcvn.wandb
+2024-03-28 14:42:54,217 DEBUG   SenderThread:7176 [sender.py:send():378] send: header
+2024-03-28 14:42:54,217 DEBUG   SenderThread:7176 [sender.py:send():378] send: run
+2024-03-28 14:42:59,263 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:43:04,300 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:43:06,135 INFO    SenderThread:7176 [dir_watcher.py:__init__():211] watching files in: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files
+2024-03-28 14:43:06,135 INFO    SenderThread:7176 [sender.py:_start_run_threads():1099] run started: g574hcvn with start time 1711617174.193319
+2024-03-28 14:43:06,135 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:43:06,142 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: check_version
+2024-03-28 14:43:06,142 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: check_version
+2024-03-28 14:43:10,810 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: run_start
+2024-03-28 14:43:11,110 DEBUG   HandlerThread:7176 [system_info.py:__init__():26] System info init
+2024-03-28 14:43:11,110 DEBUG   HandlerThread:7176 [system_info.py:__init__():41] System info init done
+2024-03-28 14:43:11,110 INFO    HandlerThread:7176 [system_monitor.py:start():194] Starting system monitor
+2024-03-28 14:43:11,110 INFO    SystemMonitor:7176 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-28 14:43:11,110 INFO    HandlerThread:7176 [system_monitor.py:probe():214] Collecting system info
+2024-03-28 14:43:11,126 INFO    SystemMonitor:7176 [interfaces.py:start():190] Started cpu monitoring
+2024-03-28 14:43:11,126 INFO    SystemMonitor:7176 [interfaces.py:start():190] Started disk monitoring
+2024-03-28 14:43:11,126 INFO    SystemMonitor:7176 [interfaces.py:start():190] Started gpu monitoring
+2024-03-28 14:43:11,126 INFO    SystemMonitor:7176 [interfaces.py:start():190] Started memory monitoring
+2024-03-28 14:43:11,126 INFO    SystemMonitor:7176 [interfaces.py:start():190] Started network monitoring
+2024-03-28 14:43:11,143 DEBUG   HandlerThread:7176 [system_info.py:probe():150] Probing system
+2024-03-28 14:43:11,143 DEBUG   HandlerThread:7176 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-28 14:43:11,143 DEBUG   HandlerThread:7176 [system_info.py:probe():198] Probing system done
+2024-03-28 14:43:11,143 DEBUG   HandlerThread:7176 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.13', 'heartbeatAt': '2024-03-28T09:13:11.143553', 'startedAt': '2024-03-28T09:12:54.137529', 'docker': None, 'cuda': None, 'args': ('8000',), 'state': 'running', 'program': 'C:\\Users\\chinm\\Desktop\\FL-FINAL\\CIFAR\\client2.py', 'codePathLocal': 'client2.py', 'codePath': 'client2.py', 'host': 'MSI', 'username': 'chinm', 'executable': 'C:\\Users\\chinm\\anaconda3\\New folder\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 2496.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 2496.0}], 'disk': {'/': {'total': 458.81444931030273, 'used': 436.2283821105957}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 7.8259735107421875}}
+2024-03-28 14:43:11,143 INFO    HandlerThread:7176 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-28 14:43:11,143 INFO    HandlerThread:7176 [system_monitor.py:probe():227] Publishing system info
+2024-03-28 14:43:11,143 DEBUG   HandlerThread:7176 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-03-28 14:43:11,158 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:43:11,173 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\conda-environment.yaml
+2024-03-28 14:43:13,618 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:13,618 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:16,263 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:16,264 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:18,889 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:18,889 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:21,518 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:21,518 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:24,154 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:24,154 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:26,778 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:26,778 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:27,168 DEBUG   HandlerThread:7176 [system_info.py:_save_conda():219] Saving conda packages done
+2024-03-28 14:43:27,172 INFO    HandlerThread:7176 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-28 14:43:27,187 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:43:27,187 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:43:27,187 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:43:27,187 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:43:27,187 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:43:27,187 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:43:27,187 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:43:27,187 DEBUG   SenderThread:7176 [sender.py:send():378] send: files
+2024-03-28 14:43:27,187 INFO    SenderThread:7176 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-28 14:43:27,279 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\conda-environment.yaml
+2024-03-28 14:43:27,279 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\wandb-metadata.json
+2024-03-28 14:43:28,074 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-28 14:43:28,074 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: python_packages
+2024-03-28 14:43:28,074 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:43:28,074 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:43:28,074 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:43:28,290 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\requirements.txt
+2024-03-28 14:43:29,421 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:29,421 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:32,049 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:32,049 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:33,135 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:43:34,742 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:34,742 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:35,616 DEBUG   SenderThread:7176 [sender.py:send():378] send: telemetry
+2024-03-28 14:43:35,616 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:43:36,376 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:43:37,431 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:37,431 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:38,431 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:43:40,081 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:40,081 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:40,673 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:43:42,733 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:42,733 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:43,084 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:43:43,085 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:43:43,085 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:43:45,393 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:45,393 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:47,664 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:43:48,044 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:48,044 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:50,741 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:50,741 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:52,706 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:43:53,342 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:53,342 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:54,169 INFO    wandb-upload_0:7176 [upload_job.py:push():131] Uploaded file C:\Users\chinm\AppData\Local\Temp\tmpwybq9kfnwandb\yvofrf74-wandb-metadata.json
+2024-03-28 14:43:55,991 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:55,991 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:56,772 WARNING FileStreamThread:7176 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x0000021D442DB040>>, timeout=180.0), args: ('https://api.wandb.ai/files/chinmaysharmagsbf/CIFAR-10/g574hcvn/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2024-03-28 14:43:57,746 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:43:58,091 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:43:58,091 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:43:58,634 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:43:58,634 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:01,298 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:01,301 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:03,217 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:44:03,611 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:44:03,961 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\config.yaml
+2024-03-28 14:44:04,024 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:44:06,702 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:06,704 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:08,111 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:08,700 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:44:09,381 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:09,381 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:10,186 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:11,142 DEBUG   SystemMonitor:7176 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-28 14:44:11,150 DEBUG   SenderThread:7176 [sender.py:send():378] send: stats
+2024-03-28 14:44:12,152 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:44:12,389 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:13,092 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:44:13,108 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:44:13,108 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:44:14,473 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:14,774 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:14,774 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:17,389 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:44:17,453 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:17,453 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:19,710 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:20,168 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:20,169 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:21,816 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:22,455 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:44:22,905 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:44:23,941 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:25,526 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:25,526 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:25,977 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:27,496 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:44:28,034 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:28,115 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:44:28,131 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:44:28,131 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:44:28,211 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:28,212 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:30,080 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:31,293 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:44:32,278 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:32,761 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:44:33,624 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:33,624 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:34,339 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:36,351 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:36,351 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:36,414 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:38,077 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:44:38,531 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:39,042 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:39,042 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:40,641 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:41,153 DEBUG   SenderThread:7176 [sender.py:send():378] send: stats
+2024-03-28 14:44:41,675 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:41,722 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:41,722 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:43,130 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:44:43,136 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:44:43,136 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:44:43,753 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:44,474 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:44:44,953 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:44:45,888 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:47,146 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:47,146 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:47,998 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:49,827 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:49,835 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:50,062 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:50,142 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:44:52,128 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:52,471 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:52,472 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:54,194 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:55,160 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:44:55,168 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:55,168 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:56,283 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:44:57,847 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:57,847 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:44:58,128 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:44:58,136 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:44:58,136 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:44:58,350 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:00,277 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:45:00,408 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:00,512 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:00,512 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:02,446 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:03,231 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:03,231 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:04,520 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:05,538 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:45:05,951 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:05,955 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:06,612 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:08,689 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:08,692 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:45:10,767 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:45:10,767 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:11,188 DEBUG   SenderThread:7176 [sender.py:send():378] send: stats
+2024-03-28 14:45:11,564 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:45:12,855 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:13,137 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:45:13,145 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:45:13,145 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:45:14,128 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:45:14,953 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:16,743 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:16,745 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:18,182 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:45:19,438 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:19,440 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:20,870 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:45:22,151 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:22,151 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:22,191 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:24,294 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:24,848 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:24,848 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:26,081 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:45:26,331 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:27,525 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:27,525 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:28,147 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:45:28,158 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:45:28,158 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:45:28,441 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:30,247 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:30,247 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:30,535 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:32,904 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:32,904 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:33,231 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:45:34,372 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:45:35,663 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:45:36,787 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:38,313 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:38,313 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:38,858 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:39,468 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:45:40,994 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:41,047 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:45:41,191 DEBUG   SenderThread:7176 [sender.py:send():378] send: stats
+2024-03-28 14:45:43,046 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:43,151 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:45:43,167 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:45:43,175 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:45:43,698 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:43,698 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:45,079 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:46,402 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:46,402 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:47,158 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:45:49,100 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:49,100 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:49,202 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:51,301 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:52,042 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:45:52,446 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:45:53,384 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:54,446 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:54,507 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:54,508 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:56,539 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:57,196 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:57,203 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:57,454 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:45:58,168 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:45:58,184 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:45:58,185 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:45:58,614 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:45:59,887 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:45:59,894 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:00,735 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:02,675 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:46:02,839 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:46:02,847 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:04,951 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:05,349 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:05,349 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:07,069 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:08,038 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:08,038 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:08,087 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:46:09,150 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:10,758 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:10,758 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:11,265 DEBUG   SenderThread:7176 [sender.py:send():378] send: stats
+2024-03-28 14:46:11,270 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:13,144 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:46:13,181 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:46:13,184 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:46:13,390 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:13,440 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:13,440 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:15,084 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:46:15,498 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:16,139 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:16,139 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:17,598 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:18,907 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:46:19,724 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:20,255 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:46:21,488 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:21,488 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:21,832 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:22,858 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:24,267 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:46:24,987 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:25,295 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:46:26,938 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:26,938 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:46:27,058 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:28,162 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:46:28,193 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:46:28,193 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:46:29,172 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:29,735 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:46:30,307 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:46:31,257 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:32,779 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:46:33,320 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:35,116 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:35,120 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:35,393 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:46:35,425 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:37,537 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:37,831 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:37,838 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:39,590 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:40,543 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:46:40,570 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:46:41,279 DEBUG   SenderThread:7176 [sender.py:send():378] send: stats
+2024-03-28 14:46:41,664 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:43,174 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:46:43,184 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:43,184 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:43,215 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:46:43,215 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:46:43,746 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:45,869 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:45,872 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:45,890 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:48,263 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:46:48,542 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:48,552 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:51,267 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:46:51,275 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:51,275 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:53,270 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:54,007 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:54,007 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:55,361 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:56,583 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:46:56,651 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:56,667 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:57,445 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:46:58,183 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:46:58,215 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:46:58,215 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:46:59,376 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:59,376 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:46:59,517 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:02,025 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:02,026 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:02,497 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:47:03,808 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:04,766 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:47:05,876 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:07,458 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:07,458 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:07,731 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:47:07,990 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:10,062 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:10,159 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:10,159 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:11,288 DEBUG   SenderThread:7176 [sender.py:send():378] send: stats
+2024-03-28 14:47:12,181 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:12,743 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:47:13,039 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:47:13,216 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:47:13,221 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:13,235 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:47:13,235 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:47:15,321 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:15,607 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:47:18,305 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:18,305 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:18,305 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:47:20,945 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:20,945 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:21,436 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:47:23,565 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:23,673 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:47:25,665 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:26,402 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:47:26,487 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:47:27,755 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:28,210 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:47:28,257 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:47:28,259 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:47:29,070 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:47:29,864 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:31,584 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:47:31,783 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:31,786 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:31,977 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:34,051 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:34,475 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:34,476 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:36,139 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:36,785 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:47:37,203 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:37,203 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:47:38,224 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:39,930 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:39,930 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:40,320 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:41,304 DEBUG   SenderThread:7176 [sender.py:send():378] send: stats
+2024-03-28 14:47:41,888 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:47:42,423 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:42,569 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:42,569 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:43,217 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:47:43,273 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:47:43,275 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:47:44,501 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:45,293 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:45,293 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:45,570 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:46,992 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:47:47,704 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:47,973 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:47,973 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:49,779 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:50,690 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:50,696 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:51,834 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:51,998 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:47:53,633 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:47:53,900 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:56,078 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:56,109 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:47:57,249 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:47:58,127 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:47:58,241 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:47:58,272 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 14:47:58,272 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 14:47:58,772 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:47:58,772 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 14:48:00,229 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:48:00,883 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:48:03,317 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 14:48:03,593 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:48:03,882 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:48:05,465 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-28 14:48:05,465 DEBUG   SenderThread:7176 [sender.py:send():378] send: history
+2024-03-28 14:48:05,465 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: summary_record
+2024-03-28 14:48:05,465 INFO    SenderThread:7176 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-28 14:48:05,628 ERROR   gpu       :7176 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 14:48:06,411 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:48:06,411 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\wandb-summary.json
+2024-03-28 14:48:07,535 DEBUG   SenderThread:7176 [sender.py:send():378] send: exit
+2024-03-28 14:48:07,535 INFO    SenderThread:7176 [sender.py:send_exit():585] handling exit code: 1
+2024-03-28 14:48:07,535 INFO    SenderThread:7176 [sender.py:send_exit():587] handling runtime: 296
+2024-03-28 14:48:07,535 INFO    SenderThread:7176 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-28 14:48:07,535 INFO    SenderThread:7176 [sender.py:send_exit():593] send defer
+2024-03-28 14:48:07,563 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:48:07,568 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-28 14:48:07,569 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:48:07,569 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-28 14:48:07,569 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 1
+2024-03-28 14:48:07,569 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:48:07,569 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-28 14:48:07,569 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:48:07,569 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-28 14:48:07,569 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 2
+2024-03-28 14:48:07,569 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:48:07,569 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-28 14:48:07,569 INFO    HandlerThread:7176 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-28 14:48:07,569 DEBUG   SystemMonitor:7176 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-28 14:48:07,569 INFO    HandlerThread:7176 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-28 14:48:07,569 DEBUG   SystemMonitor:7176 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-28 14:48:07,575 INFO    HandlerThread:7176 [interfaces.py:finish():202] Joined disk monitor
+2024-03-28 14:48:07,758 INFO    HandlerThread:7176 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-28 14:48:07,758 INFO    HandlerThread:7176 [interfaces.py:finish():202] Joined memory monitor
+2024-03-28 14:48:07,758 INFO    HandlerThread:7176 [interfaces.py:finish():202] Joined network monitor
+2024-03-28 14:48:07,758 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:48:07,758 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-28 14:48:07,758 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 3
+2024-03-28 14:48:07,758 DEBUG   SenderThread:7176 [sender.py:send():378] send: stats
+2024-03-28 14:48:07,758 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:48:07,758 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-28 14:48:07,758 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:48:07,758 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-28 14:48:07,758 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 4
+2024-03-28 14:48:07,758 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:48:07,758 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-28 14:48:07,758 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:48:07,758 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-28 14:48:07,758 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 5
+2024-03-28 14:48:07,758 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:48:07,758 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-28 14:48:07,758 DEBUG   SenderThread:7176 [sender.py:send():378] send: summary
+2024-03-28 14:48:07,758 INFO    SenderThread:7176 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-28 14:48:07,773 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:48:07,773 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-28 14:48:07,773 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 6
+2024-03-28 14:48:07,773 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:48:07,773 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-28 14:48:07,773 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:48:07,773 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-28 14:48:07,773 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 7
+2024-03-28 14:48:07,773 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:48:07,773 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:48:07,773 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-28 14:48:07,773 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:48:07,773 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-28 14:48:08,430 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\wandb-summary.json
+2024-03-28 14:48:08,435 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:48:08,556 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:09,438 INFO    Thread-16 :7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:48:09,740 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 8
+2024-03-28 14:48:09,740 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:09,740 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:48:09,740 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-28 14:48:09,740 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:48:09,740 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-28 14:48:09,740 INFO    SenderThread:7176 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-28 14:48:09,756 INFO    SenderThread:7176 [job_builder.py:_get_source_type():439] no source found
+2024-03-28 14:48:09,756 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 9
+2024-03-28 14:48:09,756 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:48:09,756 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-28 14:48:09,756 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:48:09,756 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-28 14:48:09,756 INFO    SenderThread:7176 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-28 14:48:10,448 INFO    SenderThread:7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:48:10,448 INFO    SenderThread:7176 [dir_watcher.py:finish():388] scan: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files
+2024-03-28 14:48:10,448 INFO    SenderThread:7176 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\conda-environment.yaml conda-environment.yaml
+2024-03-28 14:48:10,448 INFO    SenderThread:7176 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\config.yaml config.yaml
+2024-03-28 14:48:10,448 INFO    SenderThread:7176 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log output.log
+2024-03-28 14:48:10,448 INFO    SenderThread:7176 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\requirements.txt requirements.txt
+2024-03-28 14:48:10,464 INFO    SenderThread:7176 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\wandb-metadata.json wandb-metadata.json
+2024-03-28 14:48:10,464 INFO    SenderThread:7176 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\wandb-summary.json wandb-summary.json
+2024-03-28 14:48:10,467 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 10
+2024-03-28 14:48:10,467 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:48:10,467 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-28 14:48:10,467 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:48:10,467 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-28 14:48:10,467 INFO    SenderThread:7176 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-28 14:48:10,574 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:10,574 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:11,601 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:11,601 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:12,615 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:12,616 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:13,631 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:13,632 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:14,640 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:14,640 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:15,657 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:15,657 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:48:15,657 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:16,660 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:16,660 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:17,669 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:17,669 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:18,683 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:18,683 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:19,694 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:19,694 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:20,703 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:48:20,703 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:20,703 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:21,710 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:21,710 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:22,718 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:22,718 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:23,725 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:23,726 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:24,730 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:24,734 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:25,740 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:25,742 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:48:25,744 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:26,466 INFO    wandb-upload_2:7176 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\output.log
+2024-03-28 14:48:26,752 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:26,752 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:27,492 ERROR   wandb-upload_0:7176 [internal_api.py:upload_file():2765] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chinmaysharmagsbf/CIFAR-10/g574hcvn/conda-environment.yaml?Expires=1711703893&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=XtGBC207I3VduNDkM%2F5MIEkZGGTAHYdOt6G4w%2FgbvWZfYAAa1v4gXowivV27loTf48z%2Bnh3Tmsx1jMwFm6sYA%2FrLEEvwMwFAeA01ZrbipnmWxonSZHyVHRaI3W%2FZbut8JsLJd6ysICzjaKm3bu0REhdU2XjiYE8ohBnqoEKBD6WAvZO0HJi75hdXcTDL4BADSmaJKD5L0c33psTX5AOjsoFwzRxoOUgXCY0YXym2ERa8JW00Zxkl6JDVSUu8Ut%2FmKwRtMBPp6G6zWLVnr5mkLzBGPIEVNIirvLfGJpjWbQ4K4VjrCccXanwQmarQ5eCwcwdvLb2aBBXXou6pUPl%2F9g%3D%3D: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-03-28 14:48:27,492 ERROR   wandb-upload_0:7176 [internal_api.py:upload_file():2767] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15618'}
+2024-03-28 14:48:27,492 ERROR   wandb-upload_0:7176 [internal_api.py:upload_file():2769] upload_file response body: 
+2024-03-28 14:48:27,758 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:27,758 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:28,763 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:28,763 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:29,770 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:29,773 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:30,788 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:48:30,788 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:30,788 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:31,799 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:31,799 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:32,811 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:32,811 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:33,244 INFO    wandb-upload_1:7176 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\config.yaml
+2024-03-28 14:48:33,816 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:33,817 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:34,819 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:34,819 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:35,828 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:35,828 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:48:35,828 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:36,835 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:36,835 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:37,850 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:37,850 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:38,855 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:38,858 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:39,872 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:39,872 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:40,194 ERROR   wandb-upload_0:7176 [internal_api.py:upload_file():2765] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chinmaysharmagsbf/CIFAR-10/g574hcvn/conda-environment.yaml?Expires=1711703893&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=XtGBC207I3VduNDkM%2F5MIEkZGGTAHYdOt6G4w%2FgbvWZfYAAa1v4gXowivV27loTf48z%2Bnh3Tmsx1jMwFm6sYA%2FrLEEvwMwFAeA01ZrbipnmWxonSZHyVHRaI3W%2FZbut8JsLJd6ysICzjaKm3bu0REhdU2XjiYE8ohBnqoEKBD6WAvZO0HJi75hdXcTDL4BADSmaJKD5L0c33psTX5AOjsoFwzRxoOUgXCY0YXym2ERa8JW00Zxkl6JDVSUu8Ut%2FmKwRtMBPp6G6zWLVnr5mkLzBGPIEVNIirvLfGJpjWbQ4K4VjrCccXanwQmarQ5eCwcwdvLb2aBBXXou6pUPl%2F9g%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/chinmaysharmagsbf/CIFAR-10/g574hcvn/conda-environment.yaml?Expires=1711703893&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=XtGBC207I3VduNDkM%2F5MIEkZGGTAHYdOt6G4w%2FgbvWZfYAAa1v4gXowivV27loTf48z%2Bnh3Tmsx1jMwFm6sYA%2FrLEEvwMwFAeA01ZrbipnmWxonSZHyVHRaI3W%2FZbut8JsLJd6ysICzjaKm3bu0REhdU2XjiYE8ohBnqoEKBD6WAvZO0HJi75hdXcTDL4BADSmaJKD5L0c33psTX5AOjsoFwzRxoOUgXCY0YXym2ERa8JW00Zxkl6JDVSUu8Ut%2FmKwRtMBPp6G6zWLVnr5mkLzBGPIEVNIirvLfGJpjWbQ4K4VjrCccXanwQmarQ5eCwcwdvLb2aBBXXou6pUPl%2F9g%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2024-03-28 14:48:40,194 ERROR   wandb-upload_0:7176 [internal_api.py:upload_file():2767] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15618'}
+2024-03-28 14:48:40,194 ERROR   wandb-upload_0:7176 [internal_api.py:upload_file():2769] upload_file response body: 
+2024-03-28 14:48:40,875 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:48:40,875 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:40,875 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:41,911 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:41,911 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:42,928 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:42,928 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:43,945 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:43,945 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:44,954 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:44,954 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:45,959 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:45,959 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:48:45,959 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:46,977 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:46,980 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:47,989 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:47,989 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:49,003 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:49,003 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:50,016 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:50,016 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:51,025 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:51,025 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:48:51,025 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:52,046 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:52,046 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:53,049 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:53,049 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:54,063 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:54,063 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:55,074 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:55,074 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:55,810 INFO    wandb-upload_4:7176 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\wandb-summary.json
+2024-03-28 14:48:56,089 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:48:56,089 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:56,089 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:57,102 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:57,102 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:58,108 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:58,108 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:48:59,111 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:48:59,114 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:49:00,118 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:49:00,118 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:49:01,138 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:49:01,140 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:49:01,142 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:49:02,148 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:49:02,148 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:49:02,346 INFO    wandb-upload_0:7176 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\conda-environment.yaml
+2024-03-28 14:49:02,664 INFO    wandb-upload_3:7176 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\files\requirements.txt
+2024-03-28 14:49:02,880 INFO    Thread-15 :7176 [sender.py:transition_state():613] send defer: 11
+2024-03-28 14:49:02,880 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:49:02,880 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-28 14:49:02,880 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:49:02,880 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-28 14:49:02,880 INFO    SenderThread:7176 [file_pusher.py:join():178] waiting for file pusher
+2024-03-28 14:49:02,880 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 12
+2024-03-28 14:49:02,880 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:49:02,880 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-28 14:49:02,880 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:49:02,880 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-28 14:49:02,880 INFO    SenderThread:7176 [file_stream.py:finish():595] file stream finish called
+2024-03-28 14:49:03,152 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:49:07,373 INFO    SenderThread:7176 [file_stream.py:finish():599] file stream finish is done
+2024-03-28 14:49:07,373 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 13
+2024-03-28 14:49:07,374 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:49:07,374 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:49:07,375 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-28 14:49:07,376 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 14:49:07,377 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:49:07,378 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-28 14:49:07,379 INFO    SenderThread:7176 [sender.py:transition_state():613] send defer: 14
+2024-03-28 14:49:07,381 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: defer
+2024-03-28 14:49:07,381 DEBUG   SenderThread:7176 [sender.py:send():378] send: final
+2024-03-28 14:49:07,381 INFO    HandlerThread:7176 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-28 14:49:07,381 DEBUG   SenderThread:7176 [sender.py:send():378] send: footer
+2024-03-28 14:49:07,382 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: defer
+2024-03-28 14:49:07,382 INFO    SenderThread:7176 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-28 14:49:07,384 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:49:07,385 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:49:07,385 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 14:49:07,385 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: server_info
+2024-03-28 14:49:07,385 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-28 14:49:07,389 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: poll_exit
+2024-03-28 14:49:07,389 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-28 14:49:07,390 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: server_info
+2024-03-28 14:49:07,390 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 14:49:07,390 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: job_info
+2024-03-28 14:49:08,481 DEBUG   SenderThread:7176 [sender.py:send_request():405] send_request: job_info
+2024-03-28 14:49:08,481 INFO    MainThread:7176 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-28 14:49:08,481 INFO    MainThread:7176 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-28 14:49:08,533 INFO    MainThread:7176 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-03-28 14:49:08,659 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-28 14:49:08,659 INFO    HandlerThread:7176 [handler.py:finish():869] shutting down handler
+2024-03-28 14:49:09,405 INFO    WriterThread:7176 [datastore.py:close():296] close: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_144254-g574hcvn\run-g574hcvn.wandb
+2024-03-28 14:49:09,493 INFO    SenderThread:7176 [sender.py:finish():1521] shutting down sender
+2024-03-28 14:49:09,493 INFO    SenderThread:7176 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-28 14:49:09,493 INFO    SenderThread:7176 [file_pusher.py:join():178] waiting for file pusher

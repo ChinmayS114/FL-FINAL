@@ -1,0 +1,85 @@
+2024-03-28 09:42:52,427 INFO    MainThread:6788 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-28 09:42:52,427 INFO    MainThread:6788 [wandb_setup.py:_flush():76] Configure stats pid to 6788
+2024-03-28 09:42:52,427 INFO    MainThread:6788 [wandb_setup.py:_flush():76] Loading settings from C:\Users\chinm\.config\wandb\settings
+2024-03-28 09:42:52,427 INFO    MainThread:6788 [wandb_setup.py:_flush():76] Loading settings from C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\settings
+2024-03-28 09:42:52,427 INFO    MainThread:6788 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-28 09:42:52,428 INFO    MainThread:6788 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-28 09:42:52,428 INFO    MainThread:6788 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'server.py', 'program_abspath': 'C:\\Users\\chinm\\Desktop\\FL-FINAL\\CIFAR\\server.py', 'program': 'C:\\Users\\chinm\\Desktop\\FL-FINAL\\CIFAR\\server.py'}
+2024-03-28 09:42:52,428 INFO    MainThread:6788 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_094252-vwz8pvoc\logs\debug.log
+2024-03-28 09:42:52,428 INFO    MainThread:6788 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_094252-vwz8pvoc\logs\debug-internal.log
+2024-03-28 09:42:52,428 INFO    MainThread:6788 [wandb_init.py:init():566] calling init triggers
+2024-03-28 09:42:52,428 INFO    MainThread:6788 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-28 09:42:52,428 INFO    MainThread:6788 [wandb_init.py:init():616] starting backend
+2024-03-28 09:42:52,428 INFO    MainThread:6788 [wandb_init.py:init():620] setting up manager
+2024-03-28 09:42:52,454 INFO    MainThread:6788 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-28 09:42:52,508 INFO    MainThread:6788 [wandb_init.py:init():628] backend started and connected
+2024-03-28 09:42:52,515 INFO    MainThread:6788 [wandb_init.py:init():720] updated telemetry
+2024-03-28 09:42:52,519 INFO    MainThread:6788 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-28 09:43:02,966 INFO    Thread-5  :6788 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\chinm\anaconda3\New folder\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001E58F3AAB50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E58F3AAB50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\wandb\sdk\internal\internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E58F3AAB50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2024-03-28 09:43:30,083 INFO    MainThread:6788 [wandb_run.py:_on_init():2262] communicating current version
+2024-03-28 09:43:30,598 INFO    MainThread:6788 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.16.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-03-28 09:43:30,598 INFO    MainThread:6788 [wandb_init.py:init():804] starting run threads in backend
+2024-03-28 09:43:58,556 INFO    MainThread:6788 [wandb_run.py:_console_start():2241] atexit reg
+2024-03-28 09:43:58,556 INFO    MainThread:6788 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-03-28 09:43:58,557 INFO    MainThread:6788 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-03-28 09:43:58,557 INFO    MainThread:6788 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-03-28 09:43:58,557 INFO    MainThread:6788 [wandb_init.py:init():847] run started, returning control to user process

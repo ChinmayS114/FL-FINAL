@@ -1,0 +1,32 @@
+wandb_version: 1
+
+key:
+  desc: null
+  value: c7f3b5bc64aed360788eab6b42588bf1a4018484
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.13
+    cli_version: 0.16.4
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1711617114.0
+    t:
+      1:
+      - 2
+      - 3
+      - 55
+      2:
+      - 2
+      - 3
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.9.13
+      5: 0.16.4
+      8:
+      - 3
+      - 5
+      13: windows-amd64

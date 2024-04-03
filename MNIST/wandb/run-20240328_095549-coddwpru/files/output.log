@@ -1,0 +1,18 @@
+INFO flwr 2024-03-28 09:56:08,904 | app.py:163 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+INFO flwr 2024-03-28 09:56:08,924 | app.py:176 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+INFO flwr 2024-03-28 09:56:08,924 | server.py:89 | Initializing global parameters
+INFO flwr 2024-03-28 09:56:08,924 | server.py:276 | Requesting initial parameters from one random client
+INFO flwr 2024-03-28 09:56:42,488 | server.py:280 | Received initial parameters from one random client
+INFO flwr 2024-03-28 09:56:42,490 | server.py:91 | Evaluating initial parameters
+INFO flwr 2024-03-28 09:56:42,493 | server.py:104 | FL starting
+DEBUG flwr 2024-03-28 09:56:56,160 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2024-03-28 09:57:34,063 | server.py:236 | fit_round 1 received 2 results and 0 failures
+WARNING flwr 2024-03-28 09:57:34,078 | fedavg.py:250 | No fit_metrics_aggregation_fn provided
+DEBUG flwr 2024-03-28 09:57:34,079 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2024-03-28 09:57:37,022 | server.py:187 | evaluate_round 1 received 2 results and 0 failures
+WARNING flwr 2024-03-28 09:57:37,025 | fedavg.py:281 | No evaluate_metrics_aggregation_fn provided
+DEBUG flwr 2024-03-28 09:57:37,025 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2024-03-28 09:58:17,252 | server.py:236 | fit_round 2 received 2 results and 0 failures
+DEBUG flwr 2024-03-28 09:58:17,264 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2024-03-28 09:58:20,095 | server.py:187 | evaluate_round 2 received 2 results and 0 failures
+DEBUG flwr 2024-03-28 09:58:20,101 | server.py:222 | fit_round 3: strategy sampled 2 clients (out of 2)

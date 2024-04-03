@@ -1,0 +1,3 @@
+INFO flwr 2024-03-18 11:14:26,001 | app.py:163 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+INFO flwr 2024-03-18 11:14:26,051 | app.py:176 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+INFO flwr 2024-03-18 11:14:26,056 | server.py:89 | Initializing global parameters

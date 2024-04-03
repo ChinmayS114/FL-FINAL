@@ -1,0 +1,124 @@
+WARNING flwr 2024-03-18 11:59:07,733 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+INFO flwr 2024-03-18 11:59:07,757 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2024-03-18 11:59:07,762 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-18 11:59:07,765 | connection.py:55 | ChannelConnectivity.READY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 68s 36ms/step - loss: 0.1324 - accuracy: 0.9585
+
+313/313 [==============================] - 4s 11ms/step - loss: 0.0546 - accuracy: 0.9834
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 67s 35ms/step - loss: 0.0446 - accuracy: 0.9862
+
+313/313 [==============================] - 3s 11ms/step - loss: 0.0281 - accuracy: 0.9913
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 72s 38ms/step - loss: 0.0292 - accuracy: 0.9908
+
+
+313/313 [==============================] - 4s 11ms/step - loss: 0.0226 - accuracy: 0.9926
+DEBUG flwr 2024-03-18 12:04:05,163 | connection.py:220 | gRPC channel closed
+INFO flwr 2024-03-18 12:04:05,166 | app.py:398 | Disconnect and shut down

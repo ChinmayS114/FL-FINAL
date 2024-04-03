@@ -1,0 +1,27 @@
+INFO flwr 2024-03-18 11:19:16,400 | app.py:163 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+INFO flwr 2024-03-18 11:19:16,400 | app.py:176 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+INFO flwr 2024-03-18 11:19:16,400 | server.py:89 | Initializing global parameters
+INFO flwr 2024-03-18 11:19:16,415 | server.py:276 | Requesting initial parameters from one random client
+INFO flwr 2024-03-18 11:23:10,158 | server.py:280 | Received initial parameters from one random client
+INFO flwr 2024-03-18 11:23:10,158 | server.py:91 | Evaluating initial parameters
+INFO flwr 2024-03-18 11:23:10,162 | server.py:104 | FL starting
+DEBUG flwr 2024-03-18 11:23:25,949 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2024-03-18 11:24:34,124 | server.py:236 | fit_round 1 received 2 results and 0 failures
+WARNING flwr 2024-03-18 11:24:34,134 | fedavg.py:250 | No fit_metrics_aggregation_fn provided
+DEBUG flwr 2024-03-18 11:24:34,134 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2024-03-18 11:24:37,825 | server.py:187 | evaluate_round 1 received 2 results and 0 failures
+WARNING flwr 2024-03-18 11:24:37,827 | fedavg.py:281 | No evaluate_metrics_aggregation_fn provided
+DEBUG flwr 2024-03-18 11:24:37,830 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2024-03-18 11:25:49,004 | server.py:236 | fit_round 2 received 2 results and 0 failures
+DEBUG flwr 2024-03-18 11:25:49,023 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2024-03-18 11:25:53,613 | server.py:187 | evaluate_round 2 received 2 results and 0 failures
+DEBUG flwr 2024-03-18 11:25:53,616 | server.py:222 | fit_round 3: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2024-03-18 11:27:14,604 | server.py:236 | fit_round 3 received 2 results and 0 failures
+DEBUG flwr 2024-03-18 11:27:14,619 | server.py:173 | evaluate_round 3: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2024-03-18 11:27:18,584 | server.py:187 | evaluate_round 3 received 2 results and 0 failures
+INFO flwr 2024-03-18 11:27:18,608 | server.py:153 | FL finished in 248.44599749999998
+INFO flwr 2024-03-18 11:27:18,626 | app.py:226 | app_fit: losses_distributed [(1, 0.04958691820502281), (2, 0.028708282858133316), (3, 0.020806066691875458)]
+INFO flwr 2024-03-18 11:27:18,627 | app.py:227 | app_fit: metrics_distributed_fit {}
+INFO flwr 2024-03-18 11:27:18,627 | app.py:228 | app_fit: metrics_distributed {}
+INFO flwr 2024-03-18 11:27:18,627 | app.py:229 | app_fit: losses_centralized []
+INFO flwr 2024-03-18 11:27:18,627 | app.py:230 | app_fit: metrics_centralized {}

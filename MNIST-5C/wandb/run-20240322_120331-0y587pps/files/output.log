@@ -1,0 +1,36 @@
+WARNING flwr 2024-03-22 12:03:47,602 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+INFO flwr 2024-03-22 12:03:47,614 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2024-03-22 12:03:47,616 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-22 12:03:47,618 | connection.py:55 | ChannelConnectivity.CONNECTING
+DEBUG flwr 2024-03-22 12:03:47,618 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-22 12:07:08,029 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-22 12:07:08,243 | connection.py:220 | gRPC channel closed
+Traceback (most recent call last):
+  File "C:\Users\chinm\Desktop\FL-FINAL\MNIST-5C\client.py", line 50, in <module>
+    fl.client.start_numpy_client(server_address="127.0.0.1:8080", client=client)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\app.py", line 500, in start_numpy_client
+    start_client(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\app.py", line 248, in start_client
+    _start_client_internal(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\app.py", line 361, in _start_client_internal
+    message = receive()
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\flwr\client\grpc_client\connection.py", line 132, in receive
+    proto = next(server_message_iterator)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\grpc\_channel.py", line 540, in __next__
+    return self._next()
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\grpc\_channel.py", line 966, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Connection reset"
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:127.0.0.1:8080 {created_time:"2024-03-22T06:37:08.013626+00:00", grpc_status:14, grpc_message:"Connection reset"}"
+>

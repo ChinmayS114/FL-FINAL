@@ -1,0 +1,1 @@
+{"Client 1 loss": 0.028200797736644745, "Client 1 accuracy": 0.9909666776657104, "_timestamp": 1711089779.810996, "_runtime": 249.6306130886078, "_step": 5, "Client 1 test_loss": 0.022903675213456154, "Client 1 test_accuracy": 0.9922999739646912, "_wandb": {"runtime": 250}}

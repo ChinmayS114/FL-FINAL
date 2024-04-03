@@ -1,0 +1,160 @@
+WARNING flwr 2024-03-28 10:06:42,286 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-28 10:06:42,321 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-28 10:06:42,322 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-28 10:06:42,349 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-28 10:06:42,356 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-28 10:06:42,404 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+INFO flwr 2024-03-28 10:06:42,436 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-28 10:06:42,436 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-28 10:06:42,437 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-28 10:06:42,437 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-28 10:06:42,440 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-28 10:06:42,441 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2024-03-28 10:06:42,479 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 10:06:42,484 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 10:06:42,485 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 10:06:42,490 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 10:06:42,490 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 10:06:42,492 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-28 10:06:42,493 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 10:06:42,494 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-28 10:06:42,498 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-28 10:06:42,499 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-28 10:06:42,523 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-28 10:06:42,547 | connection.py:55 | ChannelConnectivity.READY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

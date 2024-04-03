@@ -1,0 +1,1309 @@
+2024-03-28 00:16:40,544 INFO    StreamThr :2468 [internal.py:wandb_internal():86] W&B internal server running at pid: 2468, started at: 2024-03-28 00:16:40.529068
+2024-03-28 00:16:40,552 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status
+2024-03-28 00:16:40,610 INFO    WriterThread:2468 [datastore.py:open_for_write():87] open: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\run-b30puznv.wandb
+2024-03-28 00:16:40,610 DEBUG   SenderThread:2468 [sender.py:send():378] send: header
+2024-03-28 00:16:40,621 DEBUG   SenderThread:2468 [sender.py:send():378] send: run
+2024-03-28 00:16:41,728 INFO    SenderThread:2468 [dir_watcher.py:__init__():211] watching files in: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files
+2024-03-28 00:16:41,728 INFO    SenderThread:2468 [sender.py:_start_run_threads():1099] run started: b30puznv with start time 1711565200.549092
+2024-03-28 00:16:41,728 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: check_version
+2024-03-28 00:16:41,728 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: check_version
+2024-03-28 00:16:42,328 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: run_start
+2024-03-28 00:16:43,150 DEBUG   HandlerThread:2468 [system_info.py:__init__():26] System info init
+2024-03-28 00:16:43,150 DEBUG   HandlerThread:2468 [system_info.py:__init__():41] System info init done
+2024-03-28 00:16:43,150 INFO    HandlerThread:2468 [system_monitor.py:start():194] Starting system monitor
+2024-03-28 00:16:43,150 INFO    SystemMonitor:2468 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-28 00:16:43,150 INFO    HandlerThread:2468 [system_monitor.py:probe():214] Collecting system info
+2024-03-28 00:16:43,164 INFO    SystemMonitor:2468 [interfaces.py:start():190] Started cpu monitoring
+2024-03-28 00:16:43,164 INFO    SystemMonitor:2468 [interfaces.py:start():190] Started disk monitoring
+2024-03-28 00:16:43,164 INFO    SystemMonitor:2468 [interfaces.py:start():190] Started gpu monitoring
+2024-03-28 00:16:43,164 INFO    SystemMonitor:2468 [interfaces.py:start():190] Started memory monitoring
+2024-03-28 00:16:43,164 INFO    SystemMonitor:2468 [interfaces.py:start():190] Started network monitoring
+2024-03-28 00:16:43,180 DEBUG   HandlerThread:2468 [system_info.py:probe():150] Probing system
+2024-03-28 00:16:43,180 DEBUG   HandlerThread:2468 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-28 00:16:43,180 DEBUG   HandlerThread:2468 [system_info.py:probe():198] Probing system done
+2024-03-28 00:16:43,180 DEBUG   HandlerThread:2468 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.13', 'heartbeatAt': '2024-03-27T18:46:43.180506', 'startedAt': '2024-03-27T18:46:40.474017', 'docker': None, 'cuda': None, 'args': ('8000',), 'state': 'running', 'program': 'C:\\Users\\chinm\\Desktop\\FL-FINAL\\CIFAR\\client2.py', 'codePathLocal': 'client2.py', 'codePath': 'client2.py', 'host': 'MSI', 'username': 'chinm', 'executable': 'C:\\Users\\chinm\\anaconda3\\New folder\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 2496.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 2496.0}], 'disk': {'/': {'total': 458.81444931030273, 'used': 429.3486099243164}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 7.8259735107421875}}
+2024-03-28 00:16:43,180 INFO    HandlerThread:2468 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-28 00:16:43,180 INFO    HandlerThread:2468 [system_monitor.py:probe():227] Publishing system info
+2024-03-28 00:16:43,180 DEBUG   HandlerThread:2468 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-03-28 00:16:43,180 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:16:43,739 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\conda-environment.yaml
+2024-03-28 00:16:45,656 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:45,656 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:48,266 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:48,266 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:50,896 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:50,896 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:53,513 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:53,513 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:56,126 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:56,126 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:58,768 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:58,768 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:16:59,586 DEBUG   HandlerThread:2468 [system_info.py:_save_conda():219] Saving conda packages done
+2024-03-28 00:16:59,586 INFO    HandlerThread:2468 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-28 00:16:59,601 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:16:59,601 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:16:59,601 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:16:59,601 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:16:59,601 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:16:59,601 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:16:59,601 DEBUG   SenderThread:2468 [sender.py:send():378] send: files
+2024-03-28 00:16:59,601 INFO    SenderThread:2468 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-28 00:16:59,888 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\conda-environment.yaml
+2024-03-28 00:16:59,888 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\wandb-metadata.json
+2024-03-28 00:17:00,477 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-28 00:17:00,477 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: python_packages
+2024-03-28 00:17:00,477 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:17:00,477 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:17:00,477 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:17:00,893 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\requirements.txt
+2024-03-28 00:17:01,387 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:01,387 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:01,497 DEBUG   SenderThread:2468 [sender.py:send():378] send: telemetry
+2024-03-28 00:17:01,497 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:01,497 INFO    wandb-upload_0:2468 [upload_job.py:push():131] Uploaded file C:\Users\chinm\AppData\Local\Temp\tmp8dafcxndwandb\5kbfr7zq-wandb-metadata.json
+2024-03-28 00:17:04,007 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:04,007 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:04,927 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:06,690 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:06,690 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:06,937 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:07,376 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:09,348 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:09,348 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:12,009 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:12,009 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:12,418 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:12,992 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\config.yaml
+2024-03-28 00:17:14,647 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:14,647 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:15,480 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:17:15,480 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:17:15,543 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:17:17,305 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:17,305 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:18,275 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:19,907 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:19,920 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:22,668 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:17:23,324 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:25,216 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:25,216 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:27,883 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:27,883 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:28,381 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:29,083 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:30,486 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:17:30,488 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:17:30,491 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:17:30,565 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:30,565 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:31,108 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:32,934 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:32,937 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:17:33,123 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:33,503 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:35,143 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:35,605 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:35,605 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:37,165 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:38,277 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:38,278 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:38,522 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:39,181 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:40,963 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:40,996 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:17:41,191 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:43,179 DEBUG   SystemMonitor:2468 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-28 00:17:43,195 DEBUG   SenderThread:2468 [sender.py:send():378] send: stats
+2024-03-28 00:17:43,214 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:43,636 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:43,636 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:43,761 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:45,226 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:45,492 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:17:45,494 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:17:45,505 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:17:46,289 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:46,289 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:47,240 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:48,955 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:48,955 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:48,974 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:49,307 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:51,329 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:51,670 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:51,670 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:52,393 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:54,031 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:54,369 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:54,369 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:54,478 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:56,523 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:57,013 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:57,013 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:58,565 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:17:59,070 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:17:59,715 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:17:59,717 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:00,500 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:18:00,503 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:18:00,519 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:18:00,637 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:02,618 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:18:02,707 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:04,302 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:18:04,763 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:05,109 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:05,109 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:06,817 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:07,793 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:07,799 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:08,866 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:09,458 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:18:10,593 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:18:10,922 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:13,070 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:13,203 DEBUG   SenderThread:2468 [sender.py:send():378] send: stats
+2024-03-28 00:18:13,218 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:13,218 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:14,691 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:18:15,153 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:15,515 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:18:15,518 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:18:15,530 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:18:15,907 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:15,912 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:17,225 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:18,592 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:18,592 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:19,292 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:19,862 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:18:21,265 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:21,265 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:21,402 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:23,461 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:23,958 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:23,958 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:24,875 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:18:25,515 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:26,668 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:26,669 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:27,618 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:29,355 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:29,355 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:29,668 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:30,005 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:18:30,547 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:18:30,591 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:18:30,592 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:18:31,746 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:32,046 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:32,050 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:33,825 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:34,745 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:34,745 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:34,837 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:35,085 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:18:36,928 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:37,460 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:37,463 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:38,975 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:40,155 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:40,155 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:40,157 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:18:41,005 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:42,953 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:18:43,066 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:43,235 DEBUG   SenderThread:2468 [sender.py:send():378] send: stats
+2024-03-28 00:18:45,121 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:45,204 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:18:45,544 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:18:45,561 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:18:45,565 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:18:45,565 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:18:47,189 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:48,174 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:48,174 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:49,254 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:50,441 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:18:50,866 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:50,866 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:51,306 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:53,415 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:53,544 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:53,552 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:55,451 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:55,451 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:18:56,243 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:56,243 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:57,508 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:18:58,945 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:58,945 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:18:59,589 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:00,573 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:19:00,573 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:19:00,573 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:19:00,573 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:19:01,598 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:01,599 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:01,644 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:03,675 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:04,307 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:04,307 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:05,627 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:19:05,749 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:06,957 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:06,957 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:07,829 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:09,672 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:09,672 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:09,859 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:10,930 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:19:11,949 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:12,310 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:12,310 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:13,231 DEBUG   SenderThread:2468 [sender.py:send():378] send: stats
+2024-03-28 00:19:14,015 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:15,018 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:15,018 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:15,581 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:19:15,583 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:19:15,585 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:19:16,036 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:16,069 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:19:17,717 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:17,717 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:18,082 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:20,157 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:20,433 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:20,433 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:21,079 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:19:22,194 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:23,240 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:19:24,227 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:25,274 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:25,736 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:25,736 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:26,096 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:19:27,335 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:28,425 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:28,425 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:29,381 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:30,582 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:19:30,598 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:19:30,598 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:19:31,145 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:31,145 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:31,176 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:19:31,413 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:33,470 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:33,755 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:33,755 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:35,517 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:36,408 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:19:36,432 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:36,433 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:37,581 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:39,161 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:39,161 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:39,617 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:41,427 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: status_report
+2024-03-28 00:19:41,689 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:41,816 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:41,816 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:43,242 DEBUG   SenderThread:2468 [sender.py:send():378] send: stats
+2024-03-28 00:19:43,748 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:44,513 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:44,513 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:45,611 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:19:45,658 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-28 00:19:45,658 DEBUG   SenderThread:2468 [sender.py:send_request():405] send_request: stop_status
+2024-03-28 00:19:46,085 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:47,185 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:47,185 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:48,530 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 00:19:49,892 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:49,892 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:50,734 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:19:51,592 ERROR   FileStreamThread:2468 [file_stream.py:request_with_retry():685] requests_with_retry error: unknown error
+2024-03-28 00:19:51,592 ERROR   FileStreamThread:2468 [file_stream.py:request_with_retry():686] requests_with_retry encountered unretryable exception: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Traceback (most recent call last):
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\response.py", line 444, in _error_catcher
+    yield
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\response.py", line 567, in read
+    data = self._fp_read(amt) if not fp_closed else b""
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\response.py", line 533, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+  File "C:\Users\chinm\anaconda3\New folder\lib\http\client.py", line 463, in read
+    n = self.readinto(b)
+  File "C:\Users\chinm\anaconda3\New folder\lib\http\client.py", line 507, in readinto
+    n = self.fp.readinto(b)
+  File "C:\Users\chinm\anaconda3\New folder\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\chinm\anaconda3\New folder\lib\ssl.py", line 1242, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\chinm\anaconda3\New folder\lib\ssl.py", line 1100, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\response.py", line 628, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\response.py", line 593, in read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+  File "C:\Users\chinm\anaconda3\New folder\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\response.py", line 461, in _error_catcher
+    raise ProtocolError("Connection broken: %r" % e, e)
+urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\wandb\sdk\internal\file_stream.py", line 630, in request_with_retry
+    response: requests.Response = func(*args, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\sessions.py", line 745, in send
+    r.content
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\models.py", line 818, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2024-03-28 00:19:51,767 ERROR   FileStreamThread:2468 [file_stream.py:_handle_response():504] dropped chunk ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+NoneType: None
+2024-03-28 00:19:52,566 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:52,566 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:55,267 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:55,268 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:55,816 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:19:55,959 WARNING FileStreamThread:2468 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'"))). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x00000239FE5EA040>>, timeout=180.0), args: ('https://api.wandb.ai/files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 4, 'content': ['{"system.proc.memory.availableMB": 1511.72, "system.memory": 81.14, "system.proc.memory.rssMB": 835.25, "system.proc.memory.percent": 10.43, "system.cpu": 8.83, "system.cpu.0.cpu_percent": 23.43, "system.cpu.1.cpu_percent": 22.79, "system.cpu.2.cpu_percent": 32.33, "system.cpu.3.cpu_percent": 31.49, "system.cpu.4.cpu_percent": 19.71, "system.cpu.5.cpu_percent": 17.96, "system.cpu.6.cpu_percent": 21.43, "system.cpu.7.cpu_percent": 18.47, "system.cpu.8.cpu_percent": 24.24, "system.cpu.9.cpu_percent": 23.13, "system.cpu.10.cpu_percent": 91.07, "system.cpu.11.cpu_percent": 19.16, "system.proc.cpu.threads": 90, "system.disk.\\\\.usagePercent": 94.4, "system.disk.\\\\.usageGB": 432.9, "system.disk.in": 2395.96, "system.disk.out": 1360.16, "system.network.sent": 530702.27, "system.network.recv": 3391568.13, "system.gpu.0.memoryAllocated": 2.56, "system.gpu.0.memoryAllocatedBytes": 110100480.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 60.0, "system.gpu.0.powerWatts": 16.65, "_wandb": true, "_timestamp": 1711565383.237918, "_runtime": 182.688826}']}, 'output.log': {'offset': 13, 'content': ['2024-03-27T18:49:47.418571 550/782 [====================>.........] - ETA: 58s - loss: 1.4722 - accuracy: 0.3914\n']}}, 'dropped': 1}}
+2024-03-28 00:19:57,899 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:57,899 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:19:58,251 WARNING FileStreamThread:2468 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'"))). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x00000239FE5EA040>>, timeout=180.0), args: ('https://api.wandb.ai/files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 4, 'content': ['{"system.proc.memory.availableMB": 1511.72, "system.memory": 81.14, "system.proc.memory.rssMB": 835.25, "system.proc.memory.percent": 10.43, "system.cpu": 8.83, "system.cpu.0.cpu_percent": 23.43, "system.cpu.1.cpu_percent": 22.79, "system.cpu.2.cpu_percent": 32.33, "system.cpu.3.cpu_percent": 31.49, "system.cpu.4.cpu_percent": 19.71, "system.cpu.5.cpu_percent": 17.96, "system.cpu.6.cpu_percent": 21.43, "system.cpu.7.cpu_percent": 18.47, "system.cpu.8.cpu_percent": 24.24, "system.cpu.9.cpu_percent": 23.13, "system.cpu.10.cpu_percent": 91.07, "system.cpu.11.cpu_percent": 19.16, "system.proc.cpu.threads": 90, "system.disk.\\\\.usagePercent": 94.4, "system.disk.\\\\.usageGB": 432.9, "system.disk.in": 2395.96, "system.disk.out": 1360.16, "system.network.sent": 530702.27, "system.network.recv": 3391568.13, "system.gpu.0.memoryAllocated": 2.56, "system.gpu.0.memoryAllocatedBytes": 110100480.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 60.0, "system.gpu.0.powerWatts": 16.65, "_wandb": true, "_timestamp": 1711565383.237918, "_runtime": 182.688826}']}, 'output.log': {'offset': 13, 'content': ['2024-03-27T18:49:47.418571 550/782 [====================>.........] - ETA: 58s - loss: 1.4722 - accuracy: 0.3914\n']}}, 'dropped': 1}}
+2024-03-28 00:19:59,853 INFO    SenderThread:2468 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connection.py", line 472, in connect
+    _match_hostname(cert, self.assert_hostname or server_hostname)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connection.py", line 545, in _match_hostname
+    match_hostname(cert, asserted_hostname)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\util\ssl_match_hostname.py", line 155, in match_hostname
+    raise CertificateError("hostname %r doesn't match %r" % (hostname, dnsnames[0]))
+urllib3.util.ssl_match_hostname.CertificateError: hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\wandb\sdk\internal\internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\chinm\anaconda3\New folder\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'")))
+2024-03-28 00:20:00,606 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:00,612 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:00,643 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:20:02,538 WARNING FileStreamThread:2468 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'"))). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x00000239FE5EA040>>, timeout=180.0), args: ('https://api.wandb.ai/files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 4, 'content': ['{"system.proc.memory.availableMB": 1511.72, "system.memory": 81.14, "system.proc.memory.rssMB": 835.25, "system.proc.memory.percent": 10.43, "system.cpu": 8.83, "system.cpu.0.cpu_percent": 23.43, "system.cpu.1.cpu_percent": 22.79, "system.cpu.2.cpu_percent": 32.33, "system.cpu.3.cpu_percent": 31.49, "system.cpu.4.cpu_percent": 19.71, "system.cpu.5.cpu_percent": 17.96, "system.cpu.6.cpu_percent": 21.43, "system.cpu.7.cpu_percent": 18.47, "system.cpu.8.cpu_percent": 24.24, "system.cpu.9.cpu_percent": 23.13, "system.cpu.10.cpu_percent": 91.07, "system.cpu.11.cpu_percent": 19.16, "system.proc.cpu.threads": 90, "system.disk.\\\\.usagePercent": 94.4, "system.disk.\\\\.usageGB": 432.9, "system.disk.in": 2395.96, "system.disk.out": 1360.16, "system.network.sent": 530702.27, "system.network.recv": 3391568.13, "system.gpu.0.memoryAllocated": 2.56, "system.gpu.0.memoryAllocatedBytes": 110100480.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 60.0, "system.gpu.0.powerWatts": 16.65, "_wandb": true, "_timestamp": 1711565383.237918, "_runtime": 182.688826}']}, 'output.log': {'offset': 13, 'content': ['2024-03-27T18:49:47.418571 550/782 [====================>.........] - ETA: 58s - loss: 1.4722 - accuracy: 0.3914\n']}}, 'dropped': 1}}
+2024-03-28 00:20:03,560 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:20:05,913 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:20:06,004 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:06,004 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:08,683 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:08,683 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:10,966 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:20:11,343 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:11,359 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:12,394 WARNING FileStreamThread:2468 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'"))). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x00000239FE5EA040>>, timeout=180.0), args: ('https://api.wandb.ai/files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 4, 'content': ['{"system.proc.memory.availableMB": 1511.72, "system.memory": 81.14, "system.proc.memory.rssMB": 835.25, "system.proc.memory.percent": 10.43, "system.cpu": 8.83, "system.cpu.0.cpu_percent": 23.43, "system.cpu.1.cpu_percent": 22.79, "system.cpu.2.cpu_percent": 32.33, "system.cpu.3.cpu_percent": 31.49, "system.cpu.4.cpu_percent": 19.71, "system.cpu.5.cpu_percent": 17.96, "system.cpu.6.cpu_percent": 21.43, "system.cpu.7.cpu_percent": 18.47, "system.cpu.8.cpu_percent": 24.24, "system.cpu.9.cpu_percent": 23.13, "system.cpu.10.cpu_percent": 91.07, "system.cpu.11.cpu_percent": 19.16, "system.proc.cpu.threads": 90, "system.disk.\\\\.usagePercent": 94.4, "system.disk.\\\\.usageGB": 432.9, "system.disk.in": 2395.96, "system.disk.out": 1360.16, "system.network.sent": 530702.27, "system.network.recv": 3391568.13, "system.gpu.0.memoryAllocated": 2.56, "system.gpu.0.memoryAllocatedBytes": 110100480.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 60.0, "system.gpu.0.powerWatts": 16.65, "_wandb": true, "_timestamp": 1711565383.237918, "_runtime": 182.688826}']}, 'output.log': {'offset': 13, 'content': ['2024-03-27T18:49:47.418571 550/782 [====================>.........] - ETA: 58s - loss: 1.4722 - accuracy: 0.3914\n']}}, 'dropped': 1}}
+2024-03-28 00:20:14,044 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:14,044 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:15,635 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:20:16,717 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:16,719 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:19,378 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:19,378 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:21,067 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:20:22,034 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:22,034 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:24,751 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:24,751 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:26,108 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:20:27,363 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:27,363 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:30,072 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:30,072 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:30,622 WARNING FileStreamThread:2468 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'"))). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x00000239FE5EA040>>, timeout=180.0), args: ('https://api.wandb.ai/files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 4, 'content': ['{"system.proc.memory.availableMB": 1511.72, "system.memory": 81.14, "system.proc.memory.rssMB": 835.25, "system.proc.memory.percent": 10.43, "system.cpu": 8.83, "system.cpu.0.cpu_percent": 23.43, "system.cpu.1.cpu_percent": 22.79, "system.cpu.2.cpu_percent": 32.33, "system.cpu.3.cpu_percent": 31.49, "system.cpu.4.cpu_percent": 19.71, "system.cpu.5.cpu_percent": 17.96, "system.cpu.6.cpu_percent": 21.43, "system.cpu.7.cpu_percent": 18.47, "system.cpu.8.cpu_percent": 24.24, "system.cpu.9.cpu_percent": 23.13, "system.cpu.10.cpu_percent": 91.07, "system.cpu.11.cpu_percent": 19.16, "system.proc.cpu.threads": 90, "system.disk.\\\\.usagePercent": 94.4, "system.disk.\\\\.usageGB": 432.9, "system.disk.in": 2395.96, "system.disk.out": 1360.16, "system.network.sent": 530702.27, "system.network.recv": 3391568.13, "system.gpu.0.memoryAllocated": 2.56, "system.gpu.0.memoryAllocatedBytes": 110100480.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 60.0, "system.gpu.0.powerWatts": 16.65, "_wandb": true, "_timestamp": 1711565383.237918, "_runtime": 182.688826}']}, 'output.log': {'offset': 13, 'content': ['2024-03-27T18:49:47.418571 550/782 [====================>.........] - ETA: 58s - loss: 1.4722 - accuracy: 0.3914\n']}}, 'dropped': 1}}
+2024-03-28 00:20:30,655 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:20:32,714 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:32,714 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:35,435 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:35,439 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:36,239 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:20:38,098 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:38,098 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:40,782 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:40,782 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:41,280 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:20:43,626 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:20:44,573 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-28 00:20:45,642 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-28 00:20:46,100 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:46,100 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:48,751 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:48,751 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:49,755 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-28 00:20:51,361 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:51,361 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:53,999 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:53,999 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:54,786 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:20:56,625 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:56,641 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:59,285 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:59,285 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:20:59,819 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:01,940 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:01,940 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:04,586 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:04,586 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:04,912 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:07,210 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:07,210 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:09,850 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:09,850 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:09,944 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:09,975 WARNING FileStreamThread:2468 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'"))). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x00000239FE5EA040>>, timeout=180.0), args: ('https://api.wandb.ai/files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 4, 'content': ['{"system.proc.memory.availableMB": 1511.72, "system.memory": 81.14, "system.proc.memory.rssMB": 835.25, "system.proc.memory.percent": 10.43, "system.cpu": 8.83, "system.cpu.0.cpu_percent": 23.43, "system.cpu.1.cpu_percent": 22.79, "system.cpu.2.cpu_percent": 32.33, "system.cpu.3.cpu_percent": 31.49, "system.cpu.4.cpu_percent": 19.71, "system.cpu.5.cpu_percent": 17.96, "system.cpu.6.cpu_percent": 21.43, "system.cpu.7.cpu_percent": 18.47, "system.cpu.8.cpu_percent": 24.24, "system.cpu.9.cpu_percent": 23.13, "system.cpu.10.cpu_percent": 91.07, "system.cpu.11.cpu_percent": 19.16, "system.proc.cpu.threads": 90, "system.disk.\\\\.usagePercent": 94.4, "system.disk.\\\\.usageGB": 432.9, "system.disk.in": 2395.96, "system.disk.out": 1360.16, "system.network.sent": 530702.27, "system.network.recv": 3391568.13, "system.gpu.0.memoryAllocated": 2.56, "system.gpu.0.memoryAllocatedBytes": 110100480.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 60.0, "system.gpu.0.powerWatts": 16.65, "_wandb": true, "_timestamp": 1711565383.237918, "_runtime": 182.688826}']}, 'output.log': {'offset': 13, 'content': ['2024-03-27T18:49:47.418571 550/782 [====================>.........] - ETA: 58s - loss: 1.4722 - accuracy: 0.3914\n']}}, 'dropped': 1}}
+2024-03-28 00:21:12,490 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:12,490 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:14,974 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:15,147 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:15,147 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:17,785 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:17,785 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:19,996 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:20,420 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:20,420 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:23,095 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:23,095 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:25,031 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:25,675 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:25,675 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:28,332 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:28,332 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:30,061 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:30,972 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:30,972 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:33,612 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:33,612 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:35,092 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:36,252 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:36,252 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:38,892 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:38,892 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:40,118 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:41,533 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:41,533 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:44,172 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:44,172 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:45,147 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:46,813 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:46,813 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:49,438 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:49,438 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:50,178 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:51,466 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 00:21:54,110 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:54,110 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:55,207 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:21:56,729 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:56,729 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:59,370 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:21:59,370 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:00,234 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:02,073 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:02,073 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:04,654 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:04,654 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:05,267 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:07,293 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:07,293 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:09,929 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:09,929 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:10,292 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:12,570 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:12,570 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:15,211 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:15,211 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:15,385 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:17,851 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:17,851 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:20,510 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:20,510 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:20,510 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:22,036 WARNING FileStreamThread:2468 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'"))). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x00000239FE5EA040>>, timeout=180.0), args: ('https://api.wandb.ai/files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 4, 'content': ['{"system.proc.memory.availableMB": 1511.72, "system.memory": 81.14, "system.proc.memory.rssMB": 835.25, "system.proc.memory.percent": 10.43, "system.cpu": 8.83, "system.cpu.0.cpu_percent": 23.43, "system.cpu.1.cpu_percent": 22.79, "system.cpu.2.cpu_percent": 32.33, "system.cpu.3.cpu_percent": 31.49, "system.cpu.4.cpu_percent": 19.71, "system.cpu.5.cpu_percent": 17.96, "system.cpu.6.cpu_percent": 21.43, "system.cpu.7.cpu_percent": 18.47, "system.cpu.8.cpu_percent": 24.24, "system.cpu.9.cpu_percent": 23.13, "system.cpu.10.cpu_percent": 91.07, "system.cpu.11.cpu_percent": 19.16, "system.proc.cpu.threads": 90, "system.disk.\\\\.usagePercent": 94.4, "system.disk.\\\\.usageGB": 432.9, "system.disk.in": 2395.96, "system.disk.out": 1360.16, "system.network.sent": 530702.27, "system.network.recv": 3391568.13, "system.gpu.0.memoryAllocated": 2.56, "system.gpu.0.memoryAllocatedBytes": 110100480.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 60.0, "system.gpu.0.powerWatts": 16.65, "_wandb": true, "_timestamp": 1711565383.237918, "_runtime": 182.688826}']}, 'output.log': {'offset': 13, 'content': ['2024-03-27T18:49:47.418571 550/782 [====================>.........] - ETA: 58s - loss: 1.4722 - accuracy: 0.3914\n']}}, 'dropped': 1}}
+2024-03-28 00:22:23,134 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:23,134 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:25,598 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:25,770 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:25,770 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:28,409 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:28,409 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:30,629 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:31,051 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:31,051 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:33,690 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:33,690 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:35,655 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:36,328 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:36,328 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:38,965 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:38,965 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:40,673 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:41,621 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 00:22:41,632 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:41,632 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:44,244 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:44,244 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:45,705 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:46,884 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:46,884 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:49,523 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:49,523 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:50,734 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:52,163 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:52,163 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:54,818 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:54,818 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:55,760 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:22:57,460 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:22:57,460 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:00,093 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:00,093 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:00,785 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:02,731 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:02,731 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:05,368 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:05,377 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:05,808 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:08,008 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:08,008 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:10,651 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:10,651 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:10,839 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:13,306 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:13,306 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:15,868 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:15,947 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:15,947 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:18,589 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:18,589 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:20,905 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:21,265 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 00:23:21,265 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:21,265 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:23,892 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:23,892 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:25,946 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:26,512 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:26,512 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:29,154 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:29,154 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:31,075 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:31,801 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:31,801 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:34,444 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:34,449 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:36,112 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:37,087 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:37,087 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:39,743 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:39,743 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:41,145 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:42,386 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:42,386 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:45,024 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:45,024 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:46,171 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:47,668 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:47,669 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:50,306 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:50,306 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:51,202 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:52,945 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:52,945 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:55,570 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:55,570 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:56,230 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:23:58,224 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:23:58,224 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:00,941 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 00:24:00,956 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:00,956 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:01,254 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:03,564 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:03,564 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:06,234 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:06,234 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:06,281 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:08,874 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:08,889 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:11,310 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:11,545 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:11,545 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:14,228 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:14,228 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:16,335 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:16,900 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:16,900 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:19,557 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:19,557 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:21,364 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:22,241 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:22,241 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:24,878 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:24,894 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:26,388 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:27,549 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:27,565 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:30,234 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:30,234 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:31,411 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:32,902 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:32,902 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:35,568 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:35,568 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:36,432 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:38,222 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:38,222 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:40,909 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 00:24:40,924 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:40,924 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:41,459 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:43,546 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:43,546 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:46,216 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:46,216 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:46,484 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:46,610 WARNING FileStreamThread:2468 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'"))). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x00000239FE5EA040>>, timeout=180.0), args: ('https://api.wandb.ai/files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 4, 'content': ['{"system.proc.memory.availableMB": 1511.72, "system.memory": 81.14, "system.proc.memory.rssMB": 835.25, "system.proc.memory.percent": 10.43, "system.cpu": 8.83, "system.cpu.0.cpu_percent": 23.43, "system.cpu.1.cpu_percent": 22.79, "system.cpu.2.cpu_percent": 32.33, "system.cpu.3.cpu_percent": 31.49, "system.cpu.4.cpu_percent": 19.71, "system.cpu.5.cpu_percent": 17.96, "system.cpu.6.cpu_percent": 21.43, "system.cpu.7.cpu_percent": 18.47, "system.cpu.8.cpu_percent": 24.24, "system.cpu.9.cpu_percent": 23.13, "system.cpu.10.cpu_percent": 91.07, "system.cpu.11.cpu_percent": 19.16, "system.proc.cpu.threads": 90, "system.disk.\\\\.usagePercent": 94.4, "system.disk.\\\\.usageGB": 432.9, "system.disk.in": 2395.96, "system.disk.out": 1360.16, "system.network.sent": 530702.27, "system.network.recv": 3391568.13, "system.gpu.0.memoryAllocated": 2.56, "system.gpu.0.memoryAllocatedBytes": 110100480.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 60.0, "system.gpu.0.powerWatts": 16.65, "_wandb": true, "_timestamp": 1711565383.237918, "_runtime": 182.688826}']}, 'output.log': {'offset': 13, 'content': ['2024-03-27T18:49:47.418571 550/782 [====================>.........] - ETA: 58s - loss: 1.4722 - accuracy: 0.3914\n']}}, 'dropped': 1}}
+2024-03-28 00:24:48,872 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:48,872 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:51,512 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:51,544 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:51,544 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:54,196 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:54,212 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:56,538 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:24:56,867 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:56,867 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:59,534 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:24:59,544 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:01,569 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:02,212 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:02,212 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:04,885 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:04,885 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:06,592 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:07,532 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:07,532 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:10,202 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:10,202 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:11,647 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:12,863 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:12,863 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:15,511 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:15,511 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:16,672 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:18,173 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:18,173 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:20,861 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 00:25:20,879 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:20,879 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:21,694 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:23,500 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:23,500 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:26,167 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:26,167 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:26,717 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:28,822 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:28,822 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:31,488 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:31,488 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:31,740 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:34,154 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:34,154 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:36,756 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:36,835 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:36,835 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:39,502 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:39,502 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:41,779 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:42,172 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:42,172 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:44,833 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:44,833 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:46,802 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:47,493 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:47,493 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:50,177 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:50,177 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:51,828 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:52,849 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:52,849 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:55,487 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:55,487 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:56,875 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:25:58,159 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:25:58,159 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:00,854 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 00:26:00,870 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:00,870 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:01,907 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:03,506 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:03,507 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:06,159 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:06,159 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:06,944 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:08,811 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:08,811 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:11,462 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:11,462 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:11,980 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:14,130 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:14,130 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:16,801 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:16,801 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:17,018 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:19,481 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:19,481 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:22,040 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:22,134 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:22,134 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:24,792 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:24,792 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:27,067 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:27,444 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:27,444 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:30,097 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:30,097 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:32,087 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:32,778 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:32,778 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:35,435 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:35,435 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:37,111 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:38,087 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:38,087 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:40,788 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 00:26:40,788 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:40,788 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:42,137 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:43,425 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:43,425 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:46,109 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:46,109 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:47,160 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:48,776 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:48,776 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:51,429 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:51,429 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:52,182 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:54,082 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:54,082 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:56,751 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:56,751 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:57,205 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:26:59,437 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:26:59,437 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:02,105 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:02,106 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:02,228 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:04,772 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:04,772 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:07,253 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:07,426 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:07,426 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:10,094 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:10,094 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:12,277 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:12,748 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:12,748 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:15,419 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:15,419 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:17,301 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:18,078 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:18,080 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:20,755 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 00:27:20,771 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:20,771 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:22,326 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:23,379 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:23,379 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:26,063 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:26,063 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:27,350 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:28,716 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:28,732 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:31,401 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:31,401 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:32,373 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:34,067 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:34,067 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:36,734 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:36,734 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:37,393 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:39,387 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:39,387 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:42,065 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:42,065 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:42,418 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:44,743 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:44,743 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:47,415 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:47,415 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:47,445 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:50,063 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:50,078 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:52,465 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:52,733 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:52,733 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:55,404 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:55,404 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:57,492 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:27:58,072 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:27:58,072 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:00,741 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 00:28:00,756 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:00,756 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:02,516 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:03,389 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:03,389 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:06,046 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:06,046 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:07,538 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:08,717 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:08,717 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:11,380 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:11,380 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:12,557 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:14,034 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:14,034 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:16,701 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:16,701 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:17,593 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:19,382 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:19,382 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:22,034 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:22,034 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:22,679 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:24,704 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:24,704 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:27,386 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:27,386 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:27,748 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:30,040 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:30,040 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:32,718 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:32,718 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:32,828 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:35,372 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:35,372 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:37,868 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:38,025 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:38,025 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:40,725 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 00:28:40,725 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:40,725 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:42,893 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:43,363 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:43,363 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:46,036 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:46,036 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:47,920 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:48,703 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:48,703 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:51,368 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:51,368 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:52,954 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:54,022 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:54,022 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:56,692 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:56,692 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:57,979 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:28:59,381 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:28:59,381 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:29:02,045 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:29:02,045 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:29:03,004 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:29:04,479 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:29:04,479 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:44:05,527 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 00:44:06,658 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:44:06,658 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 00:44:08,701 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 09:29:55,992 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:29:57,113 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 09:29:59,482 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:29:59,484 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:01,041 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:01,543 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:01,543 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:04,276 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-28 09:30:06,079 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:06,817 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:06,817 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:09,467 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:09,467 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:11,106 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:12,078 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:12,078 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:14,719 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:14,719 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:16,135 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:17,345 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:17,345 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:19,969 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:19,979 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:21,160 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:22,608 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:22,608 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:24,509 WARNING FileStreamThread:2468 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream (Caused by SSLError(CertificateError("hostname 'api.wandb.ai' doesn't match 'fnac.nitk.ac.in'"))). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x00000239FE5EA040>>, timeout=180.0), args: ('https://api.wandb.ai/files/chinmaysharmagsbf/CIFAR-10/b30puznv/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 4, 'content': ['{"system.proc.memory.availableMB": 1511.72, "system.memory": 81.14, "system.proc.memory.rssMB": 835.25, "system.proc.memory.percent": 10.43, "system.cpu": 8.83, "system.cpu.0.cpu_percent": 23.43, "system.cpu.1.cpu_percent": 22.79, "system.cpu.2.cpu_percent": 32.33, "system.cpu.3.cpu_percent": 31.49, "system.cpu.4.cpu_percent": 19.71, "system.cpu.5.cpu_percent": 17.96, "system.cpu.6.cpu_percent": 21.43, "system.cpu.7.cpu_percent": 18.47, "system.cpu.8.cpu_percent": 24.24, "system.cpu.9.cpu_percent": 23.13, "system.cpu.10.cpu_percent": 91.07, "system.cpu.11.cpu_percent": 19.16, "system.proc.cpu.threads": 90, "system.disk.\\\\.usagePercent": 94.4, "system.disk.\\\\.usageGB": 432.9, "system.disk.in": 2395.96, "system.disk.out": 1360.16, "system.network.sent": 530702.27, "system.network.recv": 3391568.13, "system.gpu.0.memoryAllocated": 2.56, "system.gpu.0.memoryAllocatedBytes": 110100480.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 60.0, "system.gpu.0.powerWatts": 16.65, "_wandb": true, "_timestamp": 1711565383.237918, "_runtime": 182.688826}']}, 'output.log': {'offset': 13, 'content': ['2024-03-27T18:49:47.418571 550/782 [====================>.........] - ETA: 58s - loss: 1.4722 - accuracy: 0.3914\n']}}, 'dropped': 1}}
+2024-03-28 09:30:25,249 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:25,249 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:26,191 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:27,871 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:27,871 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:30,503 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:30,503 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:31,238 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:33,125 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:33,125 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:35,751 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:35,751 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:36,269 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:38,374 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:38,374 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:41,013 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:41,013 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:41,296 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:43,681 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:43,681 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:46,260 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:46,260 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:46,322 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:48,897 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:48,897 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:51,350 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:51,523 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:51,523 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:54,151 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:54,151 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:56,378 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:30:56,771 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:56,771 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:59,406 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:30:59,406 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:01,402 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:02,062 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:02,062 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:04,717 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:04,717 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:06,428 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:07,387 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:07,387 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:10,041 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:10,041 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:11,457 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:12,696 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:12,696 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:15,335 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:15,351 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:16,483 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:18,007 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:18,007 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:20,657 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:20,657 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:21,505 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:23,341 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 09:31:23,356 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:23,356 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:25,963 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:25,963 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:26,530 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:28,632 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:28,632 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:31,305 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:31,305 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:31,555 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:33,975 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:33,975 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:36,586 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:36,633 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:36,633 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:39,290 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:39,290 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:41,612 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:41,960 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:41,960 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:44,626 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:44,642 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:46,636 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:47,317 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:47,317 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:49,939 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:49,939 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:51,668 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:52,585 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:52,588 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:55,220 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:55,220 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:56,697 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:31:57,844 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:31:57,844 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:00,486 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:00,486 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:01,730 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:03,161 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 09:32:03,176 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:03,176 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:05,771 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:05,771 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:06,787 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:08,405 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:08,405 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:11,045 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:11,045 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:11,833 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:13,687 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:13,687 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:16,328 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:16,328 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:16,941 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:18,967 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:18,967 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:21,607 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:21,607 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:22,030 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:24,247 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:24,247 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:26,871 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:26,871 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:27,076 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:29,510 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:29,510 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:32,135 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:32,150 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:32,150 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:34,790 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:34,790 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:37,178 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:37,429 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:37,429 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:40,068 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:40,068 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:42,207 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:42,739 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 09:32:42,739 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:42,739 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:45,346 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:45,346 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:47,233 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:47,987 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:47,987 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:50,625 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:50,625 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:52,261 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:53,264 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:53,264 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:55,900 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:55,900 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:57,283 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:32:58,537 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:32:58,537 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:01,207 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:01,208 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:02,309 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:03,846 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:03,846 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:06,533 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:06,533 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:07,350 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:09,172 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:09,172 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:11,797 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:11,797 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:12,379 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:14,443 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:14,445 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:17,083 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:17,090 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:17,432 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:19,740 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:19,740 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:22,426 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 09:33:22,441 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:22,441 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:22,457 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:25,032 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:25,032 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:27,482 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:27,686 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:27,686 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:30,338 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:30,338 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:32,542 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:32,982 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:32,982 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:35,630 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:35,630 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:37,575 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:38,269 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:38,269 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:40,928 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:40,928 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:42,609 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:43,569 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:43,569 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:46,216 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:46,216 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:47,649 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:48,859 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:48,859 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:51,497 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:51,497 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:52,722 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:54,135 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:54,135 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:56,764 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:56,764 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:57,813 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:33:59,399 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:33:59,399 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:02,070 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 09:34:02,079 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:02,079 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:02,888 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:34:04,665 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:04,665 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:07,308 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:07,308 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:07,916 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:34:09,954 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:09,954 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:12,596 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:12,596 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:12,942 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:34:15,221 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:15,221 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:17,861 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:17,861 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:17,971 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:34:20,502 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:20,502 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:23,000 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:34:23,131 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:23,131 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:25,764 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:25,764 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:28,028 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:34:28,405 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:28,405 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:31,051 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:31,051 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:33,060 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:34:33,688 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:33,688 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:36,327 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:36,327 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:38,089 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:34:38,973 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:38,973 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:41,656 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 09:34:41,680 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:41,680 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:43,121 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:34:44,268 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:44,268 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:46,932 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:46,932 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:48,169 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:34:49,571 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:49,571 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:52,217 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:52,217 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:53,186 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:34:54,848 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:54,848 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:57,521 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:57,521 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:34:58,215 DEBUG   HandlerThread:2468 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-28 09:35:00,160 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:35:00,174 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:35:02,120 WARNING StreamThr :2468 [internal.py:is_dead():414] Internal process exiting, parent pid 2780 disappeared
+2024-03-28 09:35:02,120 ERROR   StreamThr :2468 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-03-28 09:35:02,425 INFO    WriterThread:2468 [datastore.py:close():296] close: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\run-b30puznv.wandb
+2024-03-28 09:35:02,426 INFO    HandlerThread:2468 [handler.py:finish():869] shutting down handler
+2024-03-28 09:35:02,426 INFO    HandlerThread:2468 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-28 09:35:02,426 INFO    HandlerThread:2468 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-28 09:35:02,426 DEBUG   SystemMonitor:2468 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-28 09:35:02,433 DEBUG   SystemMonitor:2468 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-28 09:35:02,433 INFO    HandlerThread:2468 [interfaces.py:finish():202] Joined disk monitor
+2024-03-28 09:35:02,828 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:35:02,828 ERROR   gpu       :2468 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-03-28 09:35:02,841 ERROR   gpu       :2468 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-28 09:35:02,841 INFO    HandlerThread:2468 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-28 09:35:02,841 INFO    HandlerThread:2468 [interfaces.py:finish():202] Joined memory monitor
+2024-03-28 09:35:02,843 INFO    HandlerThread:2468 [interfaces.py:finish():202] Joined network monitor
+2024-03-28 09:36:00,690 INFO    SenderThread:2468 [sender.py:finish():1521] shutting down sender
+2024-03-28 09:36:02,130 INFO    SenderThread:2468 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-28 09:36:02,490 INFO    Thread-16 :2468 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 09:36:02,505 INFO    SenderThread:2468 [dir_watcher.py:finish():388] scan: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files
+2024-03-28 09:36:02,506 INFO    SenderThread:2468 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\conda-environment.yaml conda-environment.yaml
+2024-03-28 09:36:02,506 INFO    SenderThread:2468 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\config.yaml config.yaml
+2024-03-28 09:36:02,522 INFO    SenderThread:2468 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log output.log
+2024-03-28 09:36:02,524 INFO    SenderThread:2468 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\requirements.txt requirements.txt
+2024-03-28 09:36:02,524 INFO    SenderThread:2468 [dir_watcher.py:finish():402] scan save: C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\wandb-metadata.json wandb-metadata.json
+2024-03-28 09:36:02,524 INFO    SenderThread:2468 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-28 09:36:02,524 INFO    SenderThread:2468 [file_pusher.py:join():178] waiting for file pusher
+2024-03-28 09:36:03,755 INFO    wandb-upload_2:2468 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\output.log
+2024-03-28 09:36:03,755 INFO    wandb-upload_3:2468 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\requirements.txt
+2024-03-28 09:36:03,771 INFO    wandb-upload_1:2468 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\config.yaml
+2024-03-28 09:36:03,881 INFO    wandb-upload_0:2468 [upload_job.py:push():131] Uploaded file C:\Users\chinm\Desktop\FL-FINAL\CIFAR\wandb\run-20240328_001640-b30puznv\files\conda-environment.yaml
+2024-03-28 09:36:04,580 INFO    SenderThread:2468 [file_stream.py:finish():595] file stream finish called
+2024-03-28 09:36:04,982 INFO    SenderThread:2468 [file_stream.py:finish():599] file stream finish is done

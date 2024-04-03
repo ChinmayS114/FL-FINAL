@@ -1,0 +1,348 @@
+WARNING flwr 2024-03-22 12:15:16,243 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-22 12:15:16,249 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-22 12:15:16,255 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-22 12:15:16,260 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-22 12:15:16,264 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+INFO flwr 2024-03-22 12:15:16,270 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-22 12:15:16,270 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-22 12:15:16,271 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-22 12:15:16,271 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-22 12:15:16,271 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2024-03-22 12:15:16,274 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-22 12:15:16,276 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-22 12:15:16,277 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-22 12:15:16,280 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-22 12:15:16,284 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-22 12:15:16,285 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-22 12:15:16,285 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-22 12:15:16,305 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-22 12:15:16,307 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-22 12:15:16,307 | connection.py:55 | ChannelConnectivity.READY
+  23/1875 [..............................] - ETA: 2:18 - loss: 1.7468 - accuracy: 0.4878
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 174s 91ms/step - loss: 0.1274 - accuracy: 0.9622
+1875/1875 [==============================] - 177s 93ms/step - loss: 0.1318 - accuracy: 0.9597
+1875/1875 [==============================] - 178s 93ms/step - loss: 0.1285 - accuracy: 0.9603
+
+
+1875/1875 [==============================] - 182s 96ms/step - loss: 0.1297 - accuracy: 0.9610
+1875/1875 [==============================] - 183s 96ms/step - loss: 0.1313 - accuracy: 0.9600
+
+
+313/313 [==============================] - 6s 16ms/step - loss: 0.0566 - accuracy: 0.9863
+313/313 [==============================] - 6s 16ms/step - loss: 0.0566 - accuracy: 0.9863
+313/313 [==============================] - 6s 17ms/step - loss: 0.0566 - accuracy: 0.9863
+313/313 [==============================] - 6s 18ms/step - loss: 0.0566 - accuracy: 0.9863
+313/313 [==============================] - 6s 18ms/step - loss: 0.0566 - accuracy: 0.9863
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 149s 80ms/step - loss: 0.0467 - accuracy: 0.9852
+
+
+1875/1875 [==============================] - 155s 83ms/step - loss: 0.0470 - accuracy: 0.9854
+1875/1875 [==============================] - 157s 84ms/step - loss: 0.0466 - accuracy: 0.9852
+
+
+1875/1875 [==============================] - 162s 86ms/step - loss: 0.0479 - accuracy: 0.9851
+1875/1875 [==============================] - 163s 87ms/step - loss: 0.0468 - accuracy: 0.9854
+
+
+313/313 [==============================] - 7s 21ms/step - loss: 0.0239 - accuracy: 0.9913
+313/313 [==============================] - 7s 23ms/step - loss: 0.0239 - accuracy: 0.9913
+313/313 [==============================] - 7s 23ms/step - loss: 0.0239 - accuracy: 0.9913
+313/313 [==============================] - 8s 25ms/step - loss: 0.0239 - accuracy: 0.9913
+313/313 [==============================] - 8s 25ms/step - loss: 0.0239 - accuracy: 0.9913
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 156s 83ms/step - loss: 0.0292 - accuracy: 0.9910
+
+1875/1875 [==============================] - 160s 85ms/step - loss: 0.0285 - accuracy: 0.9913
+1875/1875 [==============================] - 162s 86ms/step - loss: 0.0281 - accuracy: 0.9909
+
+1875/1875 [==============================] - 166s 88ms/step - loss: 0.0285 - accuracy: 0.9912
+1875/1875 [==============================] - 166s 88ms/step - loss: 0.0285 - accuracy: 0.9909
+
+
+313/313 [==============================] - 5s 17ms/step - loss: 0.0199 - accuracy: 0.9933
+313/313 [==============================] - 5s 17ms/step - loss: 0.0199 - accuracy: 0.9933
+313/313 [==============================] - 6s 18ms/step - loss: 0.0199 - accuracy: 0.9933
+313/313 [==============================] - 6s 19ms/step - loss: 0.0199 - accuracy: 0.9933
+313/313 [==============================] - 6s 19ms/step - loss: 0.0199 - accuracy: 0.9933
+DEBUG flwr 2024-03-22 12:24:12,753 | connection.py:220 | gRPC channel closed
+DEBUG flwr 2024-03-22 12:24:12,762 | connection.py:220 | gRPC channel closed
+DEBUG flwr 2024-03-22 12:24:12,763 | connection.py:220 | gRPC channel closed
+DEBUG flwr 2024-03-22 12:24:12,763 | connection.py:220 | gRPC channel closed
+DEBUG flwr 2024-03-22 12:24:12,764 | connection.py:220 | gRPC channel closed
+INFO flwr 2024-03-22 12:24:12,768 | app.py:398 | Disconnect and shut down
+INFO flwr 2024-03-22 12:24:12,768 | app.py:398 | Disconnect and shut down
+INFO flwr 2024-03-22 12:24:12,769 | app.py:398 | Disconnect and shut down
+INFO flwr 2024-03-22 12:24:12,769 | app.py:398 | Disconnect and shut down
+INFO flwr 2024-03-22 12:24:12,769 | app.py:398 | Disconnect and shut down

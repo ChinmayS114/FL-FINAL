@@ -1,0 +1,264 @@
+WARNING flwr 2024-03-28 14:52:13,191 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-28 14:52:13,199 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-28 14:52:13,199 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-28 14:52:13,225 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-28 14:52:13,231 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+WARNING flwr 2024-03-28 14:52:13,231 | logger.py:118 |
+        DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+        This is a deprecated feature. It will be removed
+        entirely in future versions of Flower.
+INFO flwr 2024-03-28 14:52:13,243 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-28 14:52:13,243 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-28 14:52:13,243 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-28 14:52:13,243 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-28 14:52:13,246 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+INFO flwr 2024-03-28 14:52:13,246 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2024-03-28 14:52:13,249 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 14:52:13,249 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 14:52:13,253 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 14:52:13,270 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 14:52:13,270 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 14:52:13,273 | connection.py:55 | ChannelConnectivity.IDLE
+DEBUG flwr 2024-03-28 14:52:13,273 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-28 14:52:13,273 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-28 14:52:13,276 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-28 14:52:13,276 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-28 14:52:13,278 | connection.py:55 | ChannelConnectivity.READY
+DEBUG flwr 2024-03-28 14:52:13,278 | connection.py:55 | ChannelConnectivity.READY
+WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_train_function.<locals>.train_function at 0x000001916EC7E5E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_train_function.<locals>.train_function at 0x000001916E98CB80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 229s 118ms/step - loss: 0.1258 - accuracy: 0.9609
+
+
+
+1875/1875 [==============================] - 238s 123ms/step - loss: 0.1266 - accuracy: 0.9618
+1875/1875 [==============================] - 239s 123ms/step - loss: 0.1277 - accuracy: 0.9619
+1875/1875 [==============================] - 239s 123ms/step - loss: 0.1249 - accuracy: 0.9616
+1875/1875 [==============================] - 241s 124ms/step - loss: 0.1252 - accuracy: 0.9614
+
+1875/1875 [==============================] - 242s 124ms/step - loss: 0.1258 - accuracy: 0.9608
+
+
+
+
+
+313/313 [==============================] - 14s 35ms/step - loss: 0.0486 - accuracy: 0.9879
+313/313 [==============================] - 16s 40ms/step - loss: 0.0486 - accuracy: 0.9879
+313/313 [==============================] - 16s 40ms/step - loss: 0.0486 - accuracy: 0.9879
+313/313 [==============================] - 16s 39ms/step - loss: 0.0486 - accuracy: 0.9879
+313/313 [==============================] - 16s 41ms/step - loss: 0.0486 - accuracy: 0.9879
+313/313 [==============================] - 16s 41ms/step - loss: 0.0486 - accuracy: 0.9879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
